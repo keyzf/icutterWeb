@@ -1,0 +1,58 @@
+@mixin fontSet($name,$name2){
+  @font-face {
+    font-family: #{$name}; src: url('./font/#{$name}.ttf')format('truetype');  /* IE9 Compat Modes */
+    //src: url('YourWebFontName.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    //url('YourWebFontName.woff') format('woff'), /* Modern Browsers */
+    //url('_zkklt2016.ttf') format('truetype'); /* Safari, Android, iOS */
+    //url('YourWebFontName.svg#YourWebFontName') format('svg'); /* Legacy iOS */
+  }
+  .ql-snow .ql-picker.ql-font .ql-picker-label[data-value=#{$name}]::before,
+  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=#{$name}]::before {
+    content: "#{$name2}";
+    font-family: "#{$name}";
+  }
+  .ql-font-#{$name}{
+    font-family: "#{$name}";
+  }
+}@mixin fontSetOtf($name,$name2){
+  @font-face {
+    font-family: #{$name}; src: url('./font/#{$name}.otf')format('truetype');
+  }
+  .ql-snow .ql-picker.ql-font .ql-picker-label[data-value=#{$name}]::before,
+  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=#{$name}]::before {
+    content: "#{$name2}";
+    font-family: "#{$name}";
+  }
+  .ql-font-#{$name}{
+    font-family: "#{$name}";
+  }
+}@mixin fontSetTtc($name,$name2){
+  @font-face {
+    font-family: #{$name}; src: url('./font/#{$name}.ttc')format('truetype');
+  }
+  .ql-snow .ql-picker.ql-font .ql-picker-label[data-value=#{$name}]::before,
+  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=#{$name}]::before {
+    content: "#{$name2}";
+    font-family: "#{$name}";
+  }
+  .ql-font-#{$name}{
+    font-family: "#{$name}";
+  }
+}
+@include fontSet(_fangsong,仿宋);
+@include fontSet(_gaoduanhei,高端黑);
+@include fontSet(_heiti,黑体);
+@include fontSet(_kaiti,楷体);
+@include fontSet(_kuaileti,快乐体);
+@include fontSet(_kuhei,酷黑);
+@include fontSet(FZShuSong-Z01S,宋书);
+@include fontSet(Adrip,Adrip);
+@include fontSet(AspireDemiBold,AspireDemiBold);
+@include fontSet(Champignon,Champignon);
+@include fontSet(GreatVibes-Regular,GreatVibes-Regular);
+@include fontSet(RegencieLightAlt,RegencieLightAlt);
+@include fontSet(Starjhol,Starjhol);
+@include fontSetOtf(TruenoBdOl,TruenoBdOl);
+@include fontSetOtf(TruenoRg,TruenoRg);
+@include fontSetTtc(msgothic,msgothic);
+@include fontSet(msmincho,'MS Mincho');

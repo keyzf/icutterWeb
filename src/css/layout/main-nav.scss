@@ -1,0 +1,236 @@
+.top {
+  z-index: initial;
+  position: relative;
+  line-height: 60px;
+  background-color: $top-menu-bg;
+  -webkit-box-shadow: 0px 0px 5px #999;
+  -moz-box-shadow: 0px 0px 5px #999;
+  box-shadow: 0px 0px 5px #999;
+  >div{
+    position: relative;
+    height: 60px;
+    display: flex;
+  }
+  .logo {
+    float: left;
+    position: absolute;
+    background-size: 182px 36px;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    @include hover-style();
+    >div{
+      flex:3;
+      display: flex;
+      justify-content: center;
+    }
+    .ico{
+      flex: 6;
+      margin: 0px 15px;
+      align-items: flex-end;
+      svg,img{
+        height: 38px;
+      }
+      svg{
+        height: 30px;
+      }
+    }
+    .desc{
+      justify-content: center;
+      line-height: 19px;
+      font-size: 14px;
+      letter-spacing: 1.5px;
+      text-align: center;
+      color: #ffffff;
+      .dot{
+        display: inline-block;
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background-color: #fff;
+        margin: 8px 4px;
+      }
+    }
+  }
+  .info {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    right: 0;
+    .c-p{
+      .ico{
+        margin: 0 5px;
+      }
+    }
+    >a{
+      line-height: 30px;
+      text-align: center;
+      min-width: 40px;
+    }
+    .account {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      float: right;
+      img {
+        display: inline-block;
+        overflow: hidden;
+        border-radius: 30px;
+        border: 0;
+        width: 40px;
+        pointer-events:auto;
+        margin: 2px;
+        height: 40px;
+        @include hover-style();
+      }
+    }
+  }
+  .tab {
+    @include user-select-none();
+    margin: 0 0 0 280px;
+    position: relative;
+    height: 100%;
+    color: $top-menu-color;
+    display: inline-flex;
+    li {
+      width: 106px;
+      font-size: 16px;
+      display: inline-block;
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+      span {
+        display: inline-block;
+        margin: 0 3px;
+        margin-top: -4px;
+      }
+      &.current {
+        border-bottom: 3px solid transparent;
+        color: $top-menu-color-current;
+      }
+      @include hover-style();
+    }
+  }
+}
+
+.onlineTop {
+  background-color: white;
+  z-index: 1000;
+  height: 48px;
+  line-height: 48px;
+  >.p-a{
+    position: absolute;
+    height: auto;
+    width: 650px;
+  }
+  .goBack {
+    z-index: 1;
+    color: $sub-color-yellow;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 20px;
+    display: inline-block;
+    @include hover-style();
+  }
+  .projectName {
+    z-index: 1;
+    position: relative;
+    float: left;
+    min-width: 190px;
+    margin: 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  >.tab {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    // width: 350px;
+    min-width: 350px;
+    background-color: transparent;
+    .line {
+      float: left;
+    }
+    li {
+      height: 100%;
+      flex: 0;
+      flex-basis: 22%;
+      float: left;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      button{
+        margin: 0 10px;
+        line-height: 30px;
+        span{
+          margin:0 6px;
+        }
+      }
+      > span {
+        margin: 0;
+        height: 100%;
+        width: 85px;
+        justify-content: center;
+        display: flex;
+        color: #9E9E9E;
+        align-items: center;
+        line-height: 50px;
+        >.iconfont{
+         margin-right: 10px;
+
+        }
+        &.useless{
+          color: #bfbfbf;
+        }
+        &:hover {
+          opacity: 0.7;
+        }
+        span{
+        }
+      }
+      &.color-y{
+        >span{
+          color: $sub-color-yellow;
+        }
+      }
+      &.color-w{
+
+        >span{
+          //color: white;
+        }
+      }
+      &.issue{
+        >span{
+          //color: white;
+        }
+        //background-color: #494949;
+        &.can{
+          //background-color: $style;
+        }
+      }
+      &.more{
+        >span{
+          //color: white;
+        }
+        width: 35px;
+        max-width: 35px;
+        .list{
+          width: 135px;
+          height: 300px;
+          //background-color: $top-menu-bg;
+        }
+      }
+    }
+  }
+}

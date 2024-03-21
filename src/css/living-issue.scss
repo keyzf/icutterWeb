@@ -1,0 +1,283 @@
+.issue-project-live{
+  &.dialog .scope .win {
+    width: 800px;
+    margin: 10vh auto;
+    height: 620px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 1;
+    &.live{
+      border-radius: 0;
+      width: 882px;
+      video{
+        width: 100%;
+      }
+      .title{
+        justify-content:flex-start;
+        align-items: center;
+      }
+      input{
+        border: 0;
+        border-bottom: 1px solid #EBEBEB;
+        box-shadow:none;
+      }
+      .ant-select-enabled{
+        border: 0 ;
+        box-shadow:none;
+        .ant-select-selection{
+          border: 0 ;
+          box-shadow:none;
+          border-bottom: 1px solid #EBEBEB;
+        }
+      }
+      textarea{
+        border: 1px solid #EBEBEB;
+        border-radius: 4px;
+        box-shadow:none;
+      }
+    }
+  }
+  .issue-project{
+    position: relative;
+    &.live{
+      transform: scale(1);
+      >.main{
+        margin: 0;
+        height: 87%;
+        .crosswise{
+          background-color: #F7F7F7;
+          position: relative;
+          overflow: hidden;
+          &.snapShort{
+            background-color: #FFF;
+          }
+          .modal-tip{
+            position:absolute;
+            color: #fff;
+            display: inline-block;
+            width: 48px;
+            height: 70px;
+            background-color: #FFD100;
+            transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            top: -28px;
+            left: -17px;
+            span{
+              position: absolute;
+              right: 0px;
+              top: 22px;
+              display: inline-block;
+              transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+              -moz-transform: rotate(-45deg);
+              -webkit-transform: rotate(-45deg);
+              -o-transform: rotate(-45deg);
+            }
+          }
+          .column-left{
+            width: 59%;
+            padding-bottom: 0;
+            .o-h{
+              min-height: 80px;
+              height: auto;
+            }
+          }
+        }
+      }
+      .issue-btn-area{
+        bottom: 0;
+        background-color: #F7F7F7;
+        button{
+          width: 94px;
+          height: 34px;
+          &:last-child{
+            background: #FFFFFF;
+            border: 1px solid #D9D9D9;
+            border-radius: 4px;
+            margin-left: 12px;
+            margin-right: 32px;
+          }
+        }
+      }
+    }
+    >.main{
+      min-width: 0;
+      margin: 10px 25px;
+      .title{
+        height: 22px;
+        border-bottom: 0;
+        line-height: 22px;
+        margin: 5px 0;
+        span{
+          margin: 0 ;
+          margin-right: 10px;
+          font-size: 13px;
+        }
+      }
+      video{
+        width: 375px;
+        background-color: #999999;
+        height: 210px;
+      }
+      textarea{
+        height: 70px;
+      }
+      .screen-shot{
+        margin-top: 0;
+        .title{
+          .iconfont{
+            display: inline-block;
+            width: 30px;
+
+          }
+        }
+      }
+      input{
+        width: 80%;
+        text-indent:0;
+      }
+      .screen-shot .crosswise {
+        div{
+          margin-bottom: 0;
+        }
+      }
+      .short-list{
+        height: 310px;
+        //border: 1px solid #ccc;
+        overflow-y: auto;
+        background-color: #fff;
+        .unit{
+          height: 60px;
+          display: flex;
+          background-color: white;
+          -webkit-box-shadow: 0 0 0 1px #e5e5e5;
+          -moz-box-shadow: 0 0 0 1px #e5e5e5;
+          box-shadow: 0 0 0 1px #e5e5e5;
+          img{
+            height: 54px;
+            width: 96px;
+            margin: 3px;
+            background-color: #ccc;
+          }
+          >div{
+            width: 245px;
+            margin: 2px 8px;
+            display: flex;
+            flex-direction: column;
+            >div{
+              flex: 1;
+              line-height: 30px;
+              width: 100%;
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;
+              align-items: center;
+              .ico{
+                margin: 0 5px;
+                cursor: pointer;
+                &.current{
+                  color: $style;
+                }
+              }
+            }
+          }
+        }
+      }
+      .btn-area{
+        float: right;
+        margin: 5px 10px;
+        font-size: 13px;
+        .iconfont{
+          font-size: 11px;
+        }
+      }
+      .selection > div {
+        width: 170px;
+        height: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        float: left;
+        margin: 5px 10px 5px 0;
+        .ico {
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 30px;
+          margin: 5px auto;
+          background-color: #cccccc;
+        }
+        .classify{
+          display: flex;
+          margin: 0 auto;
+          font-size: 13px;
+          line-height: 24px;
+          width: 80%;
+          .ant-select{
+            width: 95px;
+          }
+          >div{
+            font-size: 12px !important;
+            flex: 1;
+            li{
+              font-size: 12px !important;
+            }
+          }
+        }
+        p{
+          margin-bottom: 5px;
+        }
+      }
+      .platform .ico {
+        color: white;
+        line-height: 40px;
+        overflow: hidden;
+        text-align: center;
+      }
+      .platform > div {
+        div {
+          width: 40px;
+          height: 40px;
+          border-radius: 30px;
+          cursor: pointer;
+          background-color: #999999;
+          float: left;
+          margin: 4px 8px;
+          -webkit-box-shadow: 1px 1px 5px #cccccc;
+          -moz-box-shadow: 1px 1px 5px #cccccc;
+          box-shadow: 1px 1px 5px #cccccc;
+        }
+      }
+      .base-info .column > div {
+        margin: 5px 0;
+        > span {
+          display: inline-block;
+          min-width: 42px;
+        }
+      }
+      .o-h{
+        height: 120px;
+        .t-a-c{
+          font-size: 11px;
+        }
+        .none{
+          margin: 20px;
+          color: #999;
+        }
+      }
+    }
+    .shadow{
+      height: 100vh;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      background-color: rgba(0,0,0,0.6);
+    }
+    .main.column{
+      background-color: white;
+    }
+
+  }
+}

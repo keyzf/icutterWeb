@@ -1,0 +1,31 @@
+.little-tip{
+  display: flex;
+  justify-content: space-around;
+  >div{
+    flex: 1;
+    text-align: center;
+    &.current{
+      color: $icoColor;
+    }
+  }
+}
+.title-tips .ant-popover-content {
+  >div{
+    &.ant-popover-inner{
+        padding: 10px;
+        font-size: 0.8rem;
+      .ant-popover-inner-content{
+        color: white;
+
+      }
+    }
+    background: rgba(100,100,100,1);
+    &.ant-popover-arrow{
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: rgba(100,100,100,0.7);
+      border-left-color: rgba(100,100,100,0.7);
+    }
+  }
+}
+@import './srorey.scss';

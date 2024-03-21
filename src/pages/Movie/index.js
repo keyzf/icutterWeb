@@ -1,0 +1,224 @@
+import React from 'react';
+import $ from 'jquery';
+import { Input, Select, Icon } from 'antd';
+import channel from '@/channel';
+import { getUserInfo, refresh as refreshInfo } from "@/channel/userInfo";
+import { toLineS } from "@/utils/handy";
+import List from './List';
+import GoTop from "@/components/GoTop";
+import './index.scss'
+
+let searchThing = '';
+let timeoutBar = '';
+const Search = Input.Search;
+const Option = Select.Option;
+let sort_by = 'add_time';//排序对象
+let desc = 1;//排序方式
+let _checkMore = () => {
+
+};
+let list = [];
+let max = ''; //当前共多少页
+export default class Movie extends React.Component {
+    state = {
+        userInfo: getUserInfo(),
+        items: [],
+        total: 0,
+        page: 1,
+        limit: 20,
+        lock: false,
+        loading: false, // 加载中
+    };
+
+    componentWillMount() {
+        $(window).scrollTop(0);
+        !localStorage.signature ? this.props.history.push('/login') : '';
+        refreshInfo((re) => {
+            this.setState({ userInfo: re });
+        });
+        this.refreshData();
+    }
+
+    componentDidMount() {
+        _checkMore = this.checkMore.bind(this);
+        if (document.addEventListener) {
+            document.addEventListener("mousewheel", _checkMore, false);
+        }
+        else {
+            document.attachEvent("onmousewheel", _checkMore);
+        }
+    }
+
+    componentWillUnmount() {
+        searchThing = '';
+        sort_by = 'add_time';//排序对象
+        desc = 1;//排序方式
+        list = [];
+        clearTimeout(timeoutBar);
+        if (document.addEventListener) {
+            document.removeEventListener("mousewheel", _checkMore, false);
+        }else {
+            document.detachEvent("onmousewheel", _checkMore);
+        }
+    }
+
+    // 滚动加载
+    checkMore() {
+        const {items, loading, lock, page} = this.state
+        if (items.length) {
+            let last = $($('.main-list').find('ul').find('li')[items.length - 1]);
+            if (last.length && last.offset().top < 730 && !loading && !lock) {
+                let newpage = page + 1
+                this.setState({lock: true, page: newpage },()=>{
+                    this.refreshData(true);
+                })
+                setTimeout(() => {
+                    this.setState({lock: false })
+                }, 1500)
+            }
+        }
+    }
+
+    // 刷新数据 后台获取list数据
+    refreshData(noEmpty) {
+        const { page, limit } = this.state
+        if (max && page > max) {
+            this.setState({ page: max })
+            return;
+        }
+        this.setState({ loading: true });
+        clearTimeout(timeoutBar)
+        channel('get_movie_list', {
+            desc: desc,
+            sort_by: sort_by,
+            name: searchThing,
+            size: limit,
+            page: page,
+        }, (res) => {
+            let re = toLineS(res);
+            if (!noEmpty) {
+                list = [];
+            }
+            let list1 = re.list || [];
+            max = re.totalPages;
+            list = list.concat(list1);
+            this.setState({ total:re.totalPages || 0, page:re.page || 1, loading: false, items: list },()=>{
+                const filterItems = list.filter((item)=> ![2,3].includes(item.status))
+                if (filterItems.length > 0) {
+                    this.changeStatus();
+                } 
+            });
+        });
+    }
+
+    changeStatus() {
+        channel('get_movie_list', {
+            desc: desc,
+            sort_by: sort_by,
+            name: searchThing,
+            size: 1000,
+            page: 1,
+        }, (re) => {
+            let list1 = re.list || [];
+            list =  list.map((item)=>{
+                for (let i = 0; i < list1.length; i++) {
+                    if (item.media_id === list1[i].media_id) {
+                        item = { ...item, ...list1[i] }
+                    }
+                }
+                return item;
+            })
+            this.setState({ items: list });
+            const filterItems = list.filter((item)=> ![2,3].includes(item.status))
+            if (filterItems.length > 0) {
+                timeoutBar = setTimeout(()=>{
+                    this.changeStatus();
+                }, 5000)
+            } 
+        });
+    }
+
+    setItems(items) {
+        this.setState({ items: items || [] }, ()=>{
+            list = items || [];
+        });
+    }
+
+    // 排序
+    getSortBy(val) {
+        switch (val) {
+            case 'time_asc': sort_by = 'add_time'; desc = 0; break;
+            case 'time_desc': sort_by = 'add_time'; desc = 1; break;
+            case 'name_asc': sort_by = 'name'; desc = 0; break;
+            case 'name_desc': sort_by = 'name'; desc = 1; break;
+        }
+        this.setState({ page: 1 }, ()=>{
+            this.refreshData();
+        })
+    }
+
+    render() {
+        const {items, page, loading,} = this.state;
+        return (
+            <div>
+                <div className="main-area haveTop">
+                    <div className="main-list">
+                        <div>
+                            <div className="select">
+                                <div className="f-r">
+                                    <span className='sort-box'>
+                                        <Select defaultValue={'time_desc'}
+                                            showArrow={false}
+                                            style={{ width: 94 }}
+                                            onChange={(val) => {
+                                                this.getSortBy(val)
+                                            }}>
+                                            <Option value="time_asc">按时间升序</Option>
+                                            <Option value="time_desc">按时间降序</Option>
+                                            <Option value="name_asc">按名称升序</Option>
+                                            <Option value="name_desc">按名称降序</Option>
+                                        </Select>
+                                        <span className='sortIco ico iconfont icon-zhengxu'></span>
+                                    </span>
+                                    <Search
+                                        placeholder="请输入关键词搜索"
+                                        onSearch={(value) => {
+                                            searchThing = value;
+                                            this.setState({ page: 1 }, ()=>{
+                                                this.refreshData();
+                                            })
+                                        }}
+                                        style={{ width: 200 }}
+                                    />
+                                </div>
+                            </div>
+                            <List
+                                items={items}
+                                history={this.props.history}
+                                setItems={this.setItems.bind(this)} />
+                            {loading ?
+                                <div className='list-loading'>
+                                    <Icon className='m-0-5' type="loading" />
+                                    <span>加载中...</span>
+                                </div>
+                                : null}
+                            {!items.length && !loading ?
+                                <div className="hasnone">
+                                    <svg className="logo icon" aria-hidden="true">
+                                        <use xlinkHref="#icon-wuyingpian"> </use>
+                                    </svg>
+                                    <p>
+                                        <span>您还没有影片哦~</span>
+                                    </p>
+                                </div>
+                                : null}
+                            {page >= 2
+                                ? <GoTop callBack={() => { $('.main-area').scrollTop(0); }} />
+                                : null}
+                        </div>
+                    </div>
+                </div>
+            </div >
+        )
+    }
+}

@@ -1,0 +1,65 @@
+
+.searchBtn{
+  .iconfont{
+    font-size: 14px;
+  }
+  &:hover{
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+.sort-box{
+  &:hover{
+    .ant-select-selection-selected-value{
+      color: rgba(0, 0, 0, 0.5);
+    }
+    .sortIco{
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+.sortIco{
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: -10px;
+}
+.all-box{
+  &:hover{
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+// 我的素材
+.material-list{
+  .movie-cell{
+    position: relative;
+  }
+  .selected {
+      cursor: pointer;
+      top:0;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      height: 0;
+      .angle{
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        position: absolute;
+        right: 14px;
+        top: 8px;
+        background: #6D6D6D;
+        border-radius: 50%;
+        &.selected{
+          background: #FFD100;
+        }
+      }
+      span{
+        color: #FFFFFF;
+        line-height: 30px;
+        right: 22px;
+        top: 8px;
+        position: absolute;
+        font-size: 14px;
+        @include hover-style();
+      }
+  }
+}

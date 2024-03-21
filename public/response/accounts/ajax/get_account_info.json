@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "result": {
+    "username": "guest",
+    "cellphone": "",
+    "is_creator": 0,
+    "role_cn": "普通账户",
+    "description": "",
+    "group_type_cn": "个人",
+    "img_url": "",
+    "company": "", "status_cn": "已通过", "guide": 1, "server_host": "https://hangzhou.onvideo.cn",
+    "status": 1, "pwd_level": 0, "role": 0, "group_id": 0, "api_key": "2100cb1ec70265189bfdb3a7aab5aeec",
+    "nickname": "guest", "email": "i@reasoning.club", "group_type": 0, "add_time": "2018-12-04 16:38:15"
+  }
+}

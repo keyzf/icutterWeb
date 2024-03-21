@@ -1,0 +1,1526 @@
+html {
+  font-size: 16px;
+  min-width: 1200px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus,
+textarea:focus {
+  outline: none
+}
+
+@media screen and (max-width: 1900px) {
+  html {
+    color: #666;
+    font-size: 15px;
+
+  }
+}
+
+.color-r {
+  color: $style;
+}
+
+::-webkit-scrollbar-track-piece {
+  width: 5px;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 5px;
+  background: #eee;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 1px 1px 2px #efefef inset;
+  -moz-box-shadow: 1px 1px 2px #efefef inset;
+  box-shadow: 1px 1px 2px #efefef inset;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer
+}
+
+@-moz-keyframes whirly-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes whirly-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes whirly-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.ico-platform {
+  display: block;
+  margin: 0 auto;
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+
+/* :not(:required) hides this rule from IE9 and below */
+.whirly-loader:not(:required) {
+  overflow: hidden;
+  position: relative;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -moz-box-shadow: $loadingStyle 0px 26px 0 6px, $loadingStyle 0.90971px 26.05079px 0 5.93333px, $loadingStyle 1.82297px 26.06967px 0 5.86667px, $loadingStyle 2.73865px 26.05647px 0 5.8px, $loadingStyle 3.65561px 26.01104px 0 5.73333px, $loadingStyle 4.57274px 25.93327px 0 5.66667px, $loadingStyle 5.48887px 25.8231px 0 5.6px, $loadingStyle 6.40287px 25.68049px 0 5.53333px, $loadingStyle 7.31358px 25.50548px 0 5.46667px, $loadingStyle 8.21985px 25.2981px 0 5.4px, $loadingStyle 9.12054px 25.05847px 0 5.33333px, $loadingStyle 10.01448px 24.78672px 0 5.26667px, $loadingStyle 10.90054px 24.48302px 0 5.2px, $loadingStyle 11.77757px 24.1476px 0 5.13333px, $loadingStyle 12.64443px 23.78072px 0 5.06667px, $loadingStyle 13.5px 23.38269px 0 5px, $loadingStyle 14.34315px 22.95384px 0 4.93333px, $loadingStyle 15.17277px 22.49455px 0 4.86667px, $loadingStyle 15.98776px 22.00526px 0 4.8px, $loadingStyle 16.78704px 21.48643px 0 4.73333px, $loadingStyle 17.56953px 20.93855px 0 4.66667px, $loadingStyle 18.33418px 20.36217px 0 4.6px, $loadingStyle 19.07995px 19.75787px 0 4.53333px, $loadingStyle 19.80582px 19.12626px 0 4.46667px, $loadingStyle 20.5108px 18.468px 0 4.4px, $loadingStyle 21.1939px 17.78379px 0 4.33333px, $loadingStyle 21.85416px 17.07434px 0 4.26667px, $loadingStyle 22.49067px 16.34043px 0 4.2px, $loadingStyle 23.10251px 15.58284px 0 4.13333px, $loadingStyle 23.68881px 14.80241px 0 4.06667px, $loadingStyle 24.24871px 14.0px 0 4px, $loadingStyle 24.7814px 13.1765px 0 3.93333px, $loadingStyle 25.28607px 12.33284px 0 3.86667px, $loadingStyle 25.76198px 11.46997px 0 3.8px, $loadingStyle 26.2084px 10.58888px 0 3.73333px, $loadingStyle 26.62462px 9.69057px 0 3.66667px, $loadingStyle 27.01001px 8.77608px 0 3.6px, $loadingStyle 27.36392px 7.84648px 0 3.53333px, $loadingStyle 27.68577px 6.90284px 0 3.46667px, $loadingStyle 27.97502px 5.94627px 0 3.4px, $loadingStyle 28.23116px 4.97791px 0 3.33333px, $loadingStyle 28.4537px 3.99891px 0 3.26667px, $loadingStyle 28.64223px 3.01042px 0 3.2px, $loadingStyle 28.79635px 2.01364px 0 3.13333px, $loadingStyle 28.91571px 1.00976px 0 3.06667px, $loadingStyle 29px 0.0px 0 3px, $loadingStyle 29.04896px -1.01441px 0 2.93333px, $loadingStyle 29.06237px -2.03224px 0 2.86667px, $loadingStyle 29.04004px -3.05223px 0 2.8px, $loadingStyle 28.98185px -4.07313px 0 2.73333px, $loadingStyle 28.88769px -5.09368px 0 2.66667px, $loadingStyle 28.75754px -6.1126px 0 2.6px, $loadingStyle 28.59138px -7.12863px 0 2.53333px, $loadingStyle 28.38926px -8.14049px 0 2.46667px, $loadingStyle 28.15127px -9.1469px 0 2.4px, $loadingStyle 27.87755px -10.1466px 0 2.33333px, $loadingStyle 27.56827px -11.1383px 0 2.26667px, $loadingStyle 27.22365px -12.12075px 0 2.2px, $loadingStyle 26.84398px -13.09268px 0 2.13333px, $loadingStyle 26.42956px -14.05285px 0 2.06667px, $loadingStyle 25.98076px -15.0px 0 2px, $loadingStyle 25.49798px -15.93291px 0 1.93333px, $loadingStyle 24.98167px -16.85035px 0 1.86667px, $loadingStyle 24.43231px -17.75111px 0 1.8px, $loadingStyle 23.85046px -18.63402px 0 1.73333px, $loadingStyle 23.23668px -19.49789px 0 1.66667px, $loadingStyle 22.5916px -20.34157px 0 1.6px, $loadingStyle 21.91589px -21.16393px 0 1.53333px, $loadingStyle 21.21024px -21.96384px 0 1.46667px, $loadingStyle 20.4754px -22.74023px 0 1.4px, $loadingStyle 19.71215px -23.49203px 0 1.33333px, $loadingStyle 18.92133px -24.2182px 0 1.26667px, $loadingStyle 18.10379px -24.91772px 0 1.2px, $loadingStyle 17.26042px -25.58963px 0 1.13333px, $loadingStyle 16.39217px -26.23295px 0 1.06667px, $loadingStyle 15.5px -26.84679px 0 1px, $loadingStyle 14.58492px -27.43024px 0 0.93333px, $loadingStyle 13.64796px -27.98245px 0 0.86667px, $loadingStyle 12.69018px -28.50262px 0 0.8px, $loadingStyle 11.7127px -28.98995px 0 0.73333px, $loadingStyle 10.71663px -29.4437px 0 0.66667px, $loadingStyle 9.70313px -29.86317px 0 0.6px, $loadingStyle 8.67339px -30.2477px 0 0.53333px, $loadingStyle 7.6286px -30.59666px 0 0.46667px, $loadingStyle 6.57001px -30.90946px 0 0.4px, $loadingStyle 5.49886px -31.18558px 0 0.33333px, $loadingStyle 4.41643px -31.42451px 0 0.26667px, $loadingStyle 3.32401px -31.6258px 0 0.2px, $loadingStyle 2.22291px -31.78904px 0 0.13333px, $loadingStyle 1.11446px -31.91388px 0 0.06667px, $loadingStyle 0.0px -32px 0 0px, $loadingStyle -1.11911px -32.04713px 0 -0.06667px, $loadingStyle -2.24151px -32.05506px 0 -0.13333px, $loadingStyle -3.36582px -32.02361px 0 -0.2px, $loadingStyle -4.49065px -31.95265px 0 -0.26667px, $loadingStyle -5.61462px -31.84212px 0 -0.33333px, $loadingStyle -6.73634px -31.69198px 0 -0.4px, $loadingStyle -7.8544px -31.50227px 0 -0.46667px, $loadingStyle -8.9674px -31.27305px 0 -0.53333px, $loadingStyle -10.07395px -31.00444px 0 -0.6px, $loadingStyle -11.17266px -30.69663px 0 -0.66667px, $loadingStyle -12.26212px -30.34982px 0 -0.73333px, $loadingStyle -13.34096px -29.96429px 0 -0.8px, $loadingStyle -14.4078px -29.54036px 0 -0.86667px, $loadingStyle -15.46126px -29.07841px 0 -0.93333px, $loadingStyle -16.5px -28.57884px 0 -1px, $loadingStyle -17.52266px -28.04212px 0 -1.06667px, $loadingStyle -18.52792px -27.46878px 0 -1.13333px, $loadingStyle -19.51447px -26.85936px 0 -1.2px, $loadingStyle -20.48101px -26.21449px 0 -1.26667px, $loadingStyle -21.42625px -25.53481px 0 -1.33333px, $loadingStyle -22.34896px -24.82104px 0 -1.4px, $loadingStyle -23.2479px -24.07391px 0 -1.46667px, $loadingStyle -24.12186px -23.29421px 0 -1.53333px, $loadingStyle -24.96967px -22.48279px 0 -1.6px, $loadingStyle -25.79016px -21.64052px 0 -1.66667px, $loadingStyle -26.58223px -20.76831px 0 -1.73333px, $loadingStyle -27.34477px -19.86714px 0 -1.8px, $loadingStyle -28.07674px -18.938px 0 -1.86667px, $loadingStyle -28.7771px -17.98193px 0 -1.93333px, $loadingStyle -29.44486px -17.0px 0 -2px, $loadingStyle -30.07908px -15.99333px 0 -2.06667px, $loadingStyle -30.67884px -14.96307px 0 -2.13333px, $loadingStyle -31.24325px -13.91039px 0 -2.2px, $loadingStyle -31.7715px -12.83652px 0 -2.26667px, $loadingStyle -32.26278px -11.74269px 0 -2.33333px, $loadingStyle -32.71634px -10.63018px 0 -2.4px, $loadingStyle -33.13149px -9.5003px 0 -2.46667px, $loadingStyle -33.50755px -8.35437px 0 -2.53333px, $loadingStyle -33.84391px -7.19374px 0 -2.6px, $loadingStyle -34.14px -6.0198px 0 -2.66667px, $loadingStyle -34.39531px -4.83395px 0 -2.73333px, $loadingStyle -34.60936px -3.63759px 0 -2.8px, $loadingStyle -34.78173px -2.43218px 0 -2.86667px, $loadingStyle -34.91205px -1.21916px 0 -2.93333px, $loadingStyle -35px 0.0px 0 -3px, $loadingStyle -35.04531px 1.22381px 0 -3.06667px, $loadingStyle -35.04775px 2.45078px 0 -3.13333px, $loadingStyle -35.00717px 3.6794px 0 -3.2px, $loadingStyle -34.92345px 4.90817px 0 -3.26667px, $loadingStyle -34.79654px 6.13557px 0 -3.33333px, $loadingStyle -34.62643px 7.36007px 0 -3.4px, $loadingStyle -34.41316px 8.58016px 0 -3.46667px, $loadingStyle -34.15683px 9.79431px 0 -3.53333px, $loadingStyle -33.85761px 11.001px 0 -3.6px, $loadingStyle -33.5157px 12.19872px 0 -3.66667px, $loadingStyle -33.13137px 13.38594px 0 -3.73333px, $loadingStyle -32.70493px 14.56117px 0 -3.8px, $loadingStyle -32.23675px 15.72291px 0 -3.86667px, $loadingStyle -31.72725px 16.86968px 0 -3.93333px, $loadingStyle -31.17691px 18px 0 -4px, $loadingStyle -30.58627px 19.11242px 0 -4.06667px, $loadingStyle -29.95589px 20.2055px 0 -4.13333px, $loadingStyle -29.28642px 21.27783px 0 -4.2px, $loadingStyle -28.57852px 22.32799px 0 -4.26667px, $loadingStyle -27.83295px 23.35462px 0 -4.33333px, $loadingStyle -27.05047px 24.35635px 0 -4.4px, $loadingStyle -26.23192px 25.33188px 0 -4.46667px, $loadingStyle -25.37819px 26.27988px 0 -4.53333px, $loadingStyle -24.49018px 27.1991px 0 -4.6px, $loadingStyle -23.56888px 28.0883px 0 -4.66667px, $loadingStyle -22.6153px 28.94626px 0 -4.73333px, $loadingStyle -21.6305px 29.77183px 0 -4.8px, $loadingStyle -20.61558px 30.56385px 0 -4.86667px, $loadingStyle -19.57168px 31.32124px 0 -4.93333px, $loadingStyle -18.5px 32.04294px 0 -5px, $loadingStyle -17.40175px 32.72792px 0 -5.06667px, $loadingStyle -16.27818px 33.37522px 0 -5.13333px, $loadingStyle -15.1306px 33.98389px 0 -5.2px, $loadingStyle -13.96034px 34.55305px 0 -5.26667px, $loadingStyle -12.76875px 35.08186px 0 -5.33333px, $loadingStyle -11.55724px 35.56951px 0 -5.4px, $loadingStyle -10.32721px 36.01527px 0 -5.46667px, $loadingStyle -9.08014px 36.41843px 0 -5.53333px, $loadingStyle -7.81748px 36.77835px 0 -5.6px, $loadingStyle -6.54075px 37.09443px 0 -5.66667px, $loadingStyle -5.25147px 37.36612px 0 -5.73333px, $loadingStyle -3.95118px 37.59293px 0 -5.8px, $loadingStyle -2.64145px 37.77443px 0 -5.86667px, $loadingStyle -1.32385px 37.91023px 0 -5.93333px;
+  -webkit-box-shadow: $loadingStyle 0px 26px 0 6px, $loadingStyle 0.90971px 26.05079px 0 5.93333px, $loadingStyle 1.82297px 26.06967px 0 5.86667px, $loadingStyle 2.73865px 26.05647px 0 5.8px, $loadingStyle 3.65561px 26.01104px 0 5.73333px, $loadingStyle 4.57274px 25.93327px 0 5.66667px, $loadingStyle 5.48887px 25.8231px 0 5.6px, $loadingStyle 6.40287px 25.68049px 0 5.53333px, $loadingStyle 7.31358px 25.50548px 0 5.46667px, $loadingStyle 8.21985px 25.2981px 0 5.4px, $loadingStyle 9.12054px 25.05847px 0 5.33333px, $loadingStyle 10.01448px 24.78672px 0 5.26667px, $loadingStyle 10.90054px 24.48302px 0 5.2px, $loadingStyle 11.77757px 24.1476px 0 5.13333px, $loadingStyle 12.64443px 23.78072px 0 5.06667px, $loadingStyle 13.5px 23.38269px 0 5px, $loadingStyle 14.34315px 22.95384px 0 4.93333px, $loadingStyle 15.17277px 22.49455px 0 4.86667px, $loadingStyle 15.98776px 22.00526px 0 4.8px, $loadingStyle 16.78704px 21.48643px 0 4.73333px, $loadingStyle 17.56953px 20.93855px 0 4.66667px, $loadingStyle 18.33418px 20.36217px 0 4.6px, $loadingStyle 19.07995px 19.75787px 0 4.53333px, $loadingStyle 19.80582px 19.12626px 0 4.46667px, $loadingStyle 20.5108px 18.468px 0 4.4px, $loadingStyle 21.1939px 17.78379px 0 4.33333px, $loadingStyle 21.85416px 17.07434px 0 4.26667px, $loadingStyle 22.49067px 16.34043px 0 4.2px, $loadingStyle 23.10251px 15.58284px 0 4.13333px, $loadingStyle 23.68881px 14.80241px 0 4.06667px, $loadingStyle 24.24871px 14.0px 0 4px, $loadingStyle 24.7814px 13.1765px 0 3.93333px, $loadingStyle 25.28607px 12.33284px 0 3.86667px, $loadingStyle 25.76198px 11.46997px 0 3.8px, $loadingStyle 26.2084px 10.58888px 0 3.73333px, $loadingStyle 26.62462px 9.69057px 0 3.66667px, $loadingStyle 27.01001px 8.77608px 0 3.6px, $loadingStyle 27.36392px 7.84648px 0 3.53333px, $loadingStyle 27.68577px 6.90284px 0 3.46667px, $loadingStyle 27.97502px 5.94627px 0 3.4px, $loadingStyle 28.23116px 4.97791px 0 3.33333px, $loadingStyle 28.4537px 3.99891px 0 3.26667px, $loadingStyle 28.64223px 3.01042px 0 3.2px, $loadingStyle 28.79635px 2.01364px 0 3.13333px, $loadingStyle 28.91571px 1.00976px 0 3.06667px, $loadingStyle 29px 0.0px 0 3px, $loadingStyle 29.04896px -1.01441px 0 2.93333px, $loadingStyle 29.06237px -2.03224px 0 2.86667px, $loadingStyle 29.04004px -3.05223px 0 2.8px, $loadingStyle 28.98185px -4.07313px 0 2.73333px, $loadingStyle 28.88769px -5.09368px 0 2.66667px, $loadingStyle 28.75754px -6.1126px 0 2.6px, $loadingStyle 28.59138px -7.12863px 0 2.53333px, $loadingStyle 28.38926px -8.14049px 0 2.46667px, $loadingStyle 28.15127px -9.1469px 0 2.4px, $loadingStyle 27.87755px -10.1466px 0 2.33333px, $loadingStyle 27.56827px -11.1383px 0 2.26667px, $loadingStyle 27.22365px -12.12075px 0 2.2px, $loadingStyle 26.84398px -13.09268px 0 2.13333px, $loadingStyle 26.42956px -14.05285px 0 2.06667px, $loadingStyle 25.98076px -15.0px 0 2px, $loadingStyle 25.49798px -15.93291px 0 1.93333px, $loadingStyle 24.98167px -16.85035px 0 1.86667px, $loadingStyle 24.43231px -17.75111px 0 1.8px, $loadingStyle 23.85046px -18.63402px 0 1.73333px, $loadingStyle 23.23668px -19.49789px 0 1.66667px, $loadingStyle 22.5916px -20.34157px 0 1.6px, $loadingStyle 21.91589px -21.16393px 0 1.53333px, $loadingStyle 21.21024px -21.96384px 0 1.46667px, $loadingStyle 20.4754px -22.74023px 0 1.4px, $loadingStyle 19.71215px -23.49203px 0 1.33333px, $loadingStyle 18.92133px -24.2182px 0 1.26667px, $loadingStyle 18.10379px -24.91772px 0 1.2px, $loadingStyle 17.26042px -25.58963px 0 1.13333px, $loadingStyle 16.39217px -26.23295px 0 1.06667px, $loadingStyle 15.5px -26.84679px 0 1px, $loadingStyle 14.58492px -27.43024px 0 0.93333px, $loadingStyle 13.64796px -27.98245px 0 0.86667px, $loadingStyle 12.69018px -28.50262px 0 0.8px, $loadingStyle 11.7127px -28.98995px 0 0.73333px, $loadingStyle 10.71663px -29.4437px 0 0.66667px, $loadingStyle 9.70313px -29.86317px 0 0.6px, $loadingStyle 8.67339px -30.2477px 0 0.53333px, $loadingStyle 7.6286px -30.59666px 0 0.46667px, $loadingStyle 6.57001px -30.90946px 0 0.4px, $loadingStyle 5.49886px -31.18558px 0 0.33333px, $loadingStyle 4.41643px -31.42451px 0 0.26667px, $loadingStyle 3.32401px -31.6258px 0 0.2px, $loadingStyle 2.22291px -31.78904px 0 0.13333px, $loadingStyle 1.11446px -31.91388px 0 0.06667px, $loadingStyle 0.0px -32px 0 0px, $loadingStyle -1.11911px -32.04713px 0 -0.06667px, $loadingStyle -2.24151px -32.05506px 0 -0.13333px, $loadingStyle -3.36582px -32.02361px 0 -0.2px, $loadingStyle -4.49065px -31.95265px 0 -0.26667px, $loadingStyle -5.61462px -31.84212px 0 -0.33333px, $loadingStyle -6.73634px -31.69198px 0 -0.4px, $loadingStyle -7.8544px -31.50227px 0 -0.46667px, $loadingStyle -8.9674px -31.27305px 0 -0.53333px, $loadingStyle -10.07395px -31.00444px 0 -0.6px, $loadingStyle -11.17266px -30.69663px 0 -0.66667px, $loadingStyle -12.26212px -30.34982px 0 -0.73333px, $loadingStyle -13.34096px -29.96429px 0 -0.8px, $loadingStyle -14.4078px -29.54036px 0 -0.86667px, $loadingStyle -15.46126px -29.07841px 0 -0.93333px, $loadingStyle -16.5px -28.57884px 0 -1px, $loadingStyle -17.52266px -28.04212px 0 -1.06667px, $loadingStyle -18.52792px -27.46878px 0 -1.13333px, $loadingStyle -19.51447px -26.85936px 0 -1.2px, $loadingStyle -20.48101px -26.21449px 0 -1.26667px, $loadingStyle -21.42625px -25.53481px 0 -1.33333px, $loadingStyle -22.34896px -24.82104px 0 -1.4px, $loadingStyle -23.2479px -24.07391px 0 -1.46667px, $loadingStyle -24.12186px -23.29421px 0 -1.53333px, $loadingStyle -24.96967px -22.48279px 0 -1.6px, $loadingStyle -25.79016px -21.64052px 0 -1.66667px, $loadingStyle -26.58223px -20.76831px 0 -1.73333px, $loadingStyle -27.34477px -19.86714px 0 -1.8px, $loadingStyle -28.07674px -18.938px 0 -1.86667px, $loadingStyle -28.7771px -17.98193px 0 -1.93333px, $loadingStyle -29.44486px -17.0px 0 -2px, $loadingStyle -30.07908px -15.99333px 0 -2.06667px, $loadingStyle -30.67884px -14.96307px 0 -2.13333px, $loadingStyle -31.24325px -13.91039px 0 -2.2px, $loadingStyle -31.7715px -12.83652px 0 -2.26667px, $loadingStyle -32.26278px -11.74269px 0 -2.33333px, $loadingStyle -32.71634px -10.63018px 0 -2.4px, $loadingStyle -33.13149px -9.5003px 0 -2.46667px, $loadingStyle -33.50755px -8.35437px 0 -2.53333px, $loadingStyle -33.84391px -7.19374px 0 -2.6px, $loadingStyle -34.14px -6.0198px 0 -2.66667px, $loadingStyle -34.39531px -4.83395px 0 -2.73333px, $loadingStyle -34.60936px -3.63759px 0 -2.8px, $loadingStyle -34.78173px -2.43218px 0 -2.86667px, $loadingStyle -34.91205px -1.21916px 0 -2.93333px, $loadingStyle -35px 0.0px 0 -3px, $loadingStyle -35.04531px 1.22381px 0 -3.06667px, $loadingStyle -35.04775px 2.45078px 0 -3.13333px, $loadingStyle -35.00717px 3.6794px 0 -3.2px, $loadingStyle -34.92345px 4.90817px 0 -3.26667px, $loadingStyle -34.79654px 6.13557px 0 -3.33333px, $loadingStyle -34.62643px 7.36007px 0 -3.4px, $loadingStyle -34.41316px 8.58016px 0 -3.46667px, $loadingStyle -34.15683px 9.79431px 0 -3.53333px, $loadingStyle -33.85761px 11.001px 0 -3.6px, $loadingStyle -33.5157px 12.19872px 0 -3.66667px, $loadingStyle -33.13137px 13.38594px 0 -3.73333px, $loadingStyle -32.70493px 14.56117px 0 -3.8px, $loadingStyle -32.23675px 15.72291px 0 -3.86667px, $loadingStyle -31.72725px 16.86968px 0 -3.93333px, $loadingStyle -31.17691px 18px 0 -4px, $loadingStyle -30.58627px 19.11242px 0 -4.06667px, $loadingStyle -29.95589px 20.2055px 0 -4.13333px, $loadingStyle -29.28642px 21.27783px 0 -4.2px, $loadingStyle -28.57852px 22.32799px 0 -4.26667px, $loadingStyle -27.83295px 23.35462px 0 -4.33333px, $loadingStyle -27.05047px 24.35635px 0 -4.4px, $loadingStyle -26.23192px 25.33188px 0 -4.46667px, $loadingStyle -25.37819px 26.27988px 0 -4.53333px, $loadingStyle -24.49018px 27.1991px 0 -4.6px, $loadingStyle -23.56888px 28.0883px 0 -4.66667px, $loadingStyle -22.6153px 28.94626px 0 -4.73333px, $loadingStyle -21.6305px 29.77183px 0 -4.8px, $loadingStyle -20.61558px 30.56385px 0 -4.86667px, $loadingStyle -19.57168px 31.32124px 0 -4.93333px, $loadingStyle -18.5px 32.04294px 0 -5px, $loadingStyle -17.40175px 32.72792px 0 -5.06667px, $loadingStyle -16.27818px 33.37522px 0 -5.13333px, $loadingStyle -15.1306px 33.98389px 0 -5.2px, $loadingStyle -13.96034px 34.55305px 0 -5.26667px, $loadingStyle -12.76875px 35.08186px 0 -5.33333px, $loadingStyle -11.55724px 35.56951px 0 -5.4px, $loadingStyle -10.32721px 36.01527px 0 -5.46667px, $loadingStyle -9.08014px 36.41843px 0 -5.53333px, $loadingStyle -7.81748px 36.77835px 0 -5.6px, $loadingStyle -6.54075px 37.09443px 0 -5.66667px, $loadingStyle -5.25147px 37.36612px 0 -5.73333px, $loadingStyle -3.95118px 37.59293px 0 -5.8px, $loadingStyle -2.64145px 37.77443px 0 -5.86667px, $loadingStyle -1.32385px 37.91023px 0 -5.93333px;
+  box-shadow: $loadingStyle 0px 26px 0 6px, $loadingStyle 0.90971px 26.05079px 0 5.93333px, $loadingStyle 1.82297px 26.06967px 0 5.86667px, $loadingStyle 2.73865px 26.05647px 0 5.8px, $loadingStyle 3.65561px 26.01104px 0 5.73333px, $loadingStyle 4.57274px 25.93327px 0 5.66667px, $loadingStyle 5.48887px 25.8231px 0 5.6px, $loadingStyle 6.40287px 25.68049px 0 5.53333px, $loadingStyle 7.31358px 25.50548px 0 5.46667px, $loadingStyle 8.21985px 25.2981px 0 5.4px, $loadingStyle 9.12054px 25.05847px 0 5.33333px, $loadingStyle 10.01448px 24.78672px 0 5.26667px, $loadingStyle 10.90054px 24.48302px 0 5.2px, $loadingStyle 11.77757px 24.1476px 0 5.13333px, $loadingStyle 12.64443px 23.78072px 0 5.06667px, $loadingStyle 13.5px 23.38269px 0 5px, $loadingStyle 14.34315px 22.95384px 0 4.93333px, $loadingStyle 15.17277px 22.49455px 0 4.86667px, $loadingStyle 15.98776px 22.00526px 0 4.8px, $loadingStyle 16.78704px 21.48643px 0 4.73333px, $loadingStyle 17.56953px 20.93855px 0 4.66667px, $loadingStyle 18.33418px 20.36217px 0 4.6px, $loadingStyle 19.07995px 19.75787px 0 4.53333px, $loadingStyle 19.80582px 19.12626px 0 4.46667px, $loadingStyle 20.5108px 18.468px 0 4.4px, $loadingStyle 21.1939px 17.78379px 0 4.33333px, $loadingStyle 21.85416px 17.07434px 0 4.26667px, $loadingStyle 22.49067px 16.34043px 0 4.2px, $loadingStyle 23.10251px 15.58284px 0 4.13333px, $loadingStyle 23.68881px 14.80241px 0 4.06667px, $loadingStyle 24.24871px 14.0px 0 4px, $loadingStyle 24.7814px 13.1765px 0 3.93333px, $loadingStyle 25.28607px 12.33284px 0 3.86667px, $loadingStyle 25.76198px 11.46997px 0 3.8px, $loadingStyle 26.2084px 10.58888px 0 3.73333px, $loadingStyle 26.62462px 9.69057px 0 3.66667px, $loadingStyle 27.01001px 8.77608px 0 3.6px, $loadingStyle 27.36392px 7.84648px 0 3.53333px, $loadingStyle 27.68577px 6.90284px 0 3.46667px, $loadingStyle 27.97502px 5.94627px 0 3.4px, $loadingStyle 28.23116px 4.97791px 0 3.33333px, $loadingStyle 28.4537px 3.99891px 0 3.26667px, $loadingStyle 28.64223px 3.01042px 0 3.2px, $loadingStyle 28.79635px 2.01364px 0 3.13333px, $loadingStyle 28.91571px 1.00976px 0 3.06667px, $loadingStyle 29px 0.0px 0 3px, $loadingStyle 29.04896px -1.01441px 0 2.93333px, $loadingStyle 29.06237px -2.03224px 0 2.86667px, $loadingStyle 29.04004px -3.05223px 0 2.8px, $loadingStyle 28.98185px -4.07313px 0 2.73333px, $loadingStyle 28.88769px -5.09368px 0 2.66667px, $loadingStyle 28.75754px -6.1126px 0 2.6px, $loadingStyle 28.59138px -7.12863px 0 2.53333px, $loadingStyle 28.38926px -8.14049px 0 2.46667px, $loadingStyle 28.15127px -9.1469px 0 2.4px, $loadingStyle 27.87755px -10.1466px 0 2.33333px, $loadingStyle 27.56827px -11.1383px 0 2.26667px, $loadingStyle 27.22365px -12.12075px 0 2.2px, $loadingStyle 26.84398px -13.09268px 0 2.13333px, $loadingStyle 26.42956px -14.05285px 0 2.06667px, $loadingStyle 25.98076px -15.0px 0 2px, $loadingStyle 25.49798px -15.93291px 0 1.93333px, $loadingStyle 24.98167px -16.85035px 0 1.86667px, $loadingStyle 24.43231px -17.75111px 0 1.8px, $loadingStyle 23.85046px -18.63402px 0 1.73333px, $loadingStyle 23.23668px -19.49789px 0 1.66667px, $loadingStyle 22.5916px -20.34157px 0 1.6px, $loadingStyle 21.91589px -21.16393px 0 1.53333px, $loadingStyle 21.21024px -21.96384px 0 1.46667px, $loadingStyle 20.4754px -22.74023px 0 1.4px, $loadingStyle 19.71215px -23.49203px 0 1.33333px, $loadingStyle 18.92133px -24.2182px 0 1.26667px, $loadingStyle 18.10379px -24.91772px 0 1.2px, $loadingStyle 17.26042px -25.58963px 0 1.13333px, $loadingStyle 16.39217px -26.23295px 0 1.06667px, $loadingStyle 15.5px -26.84679px 0 1px, $loadingStyle 14.58492px -27.43024px 0 0.93333px, $loadingStyle 13.64796px -27.98245px 0 0.86667px, $loadingStyle 12.69018px -28.50262px 0 0.8px, $loadingStyle 11.7127px -28.98995px 0 0.73333px, $loadingStyle 10.71663px -29.4437px 0 0.66667px, $loadingStyle 9.70313px -29.86317px 0 0.6px, $loadingStyle 8.67339px -30.2477px 0 0.53333px, $loadingStyle 7.6286px -30.59666px 0 0.46667px, $loadingStyle 6.57001px -30.90946px 0 0.4px, $loadingStyle 5.49886px -31.18558px 0 0.33333px, $loadingStyle 4.41643px -31.42451px 0 0.26667px, $loadingStyle 3.32401px -31.6258px 0 0.2px, $loadingStyle 2.22291px -31.78904px 0 0.13333px, $loadingStyle 1.11446px -31.91388px 0 0.06667px, $loadingStyle 0.0px -32px 0 0px, $loadingStyle -1.11911px -32.04713px 0 -0.06667px, $loadingStyle -2.24151px -32.05506px 0 -0.13333px, $loadingStyle -3.36582px -32.02361px 0 -0.2px, $loadingStyle -4.49065px -31.95265px 0 -0.26667px, $loadingStyle -5.61462px -31.84212px 0 -0.33333px, $loadingStyle -6.73634px -31.69198px 0 -0.4px, $loadingStyle -7.8544px -31.50227px 0 -0.46667px, $loadingStyle -8.9674px -31.27305px 0 -0.53333px, $loadingStyle -10.07395px -31.00444px 0 -0.6px, $loadingStyle -11.17266px -30.69663px 0 -0.66667px, $loadingStyle -12.26212px -30.34982px 0 -0.73333px, $loadingStyle -13.34096px -29.96429px 0 -0.8px, $loadingStyle -14.4078px -29.54036px 0 -0.86667px, $loadingStyle -15.46126px -29.07841px 0 -0.93333px, $loadingStyle -16.5px -28.57884px 0 -1px, $loadingStyle -17.52266px -28.04212px 0 -1.06667px, $loadingStyle -18.52792px -27.46878px 0 -1.13333px, $loadingStyle -19.51447px -26.85936px 0 -1.2px, $loadingStyle -20.48101px -26.21449px 0 -1.26667px, $loadingStyle -21.42625px -25.53481px 0 -1.33333px, $loadingStyle -22.34896px -24.82104px 0 -1.4px, $loadingStyle -23.2479px -24.07391px 0 -1.46667px, $loadingStyle -24.12186px -23.29421px 0 -1.53333px, $loadingStyle -24.96967px -22.48279px 0 -1.6px, $loadingStyle -25.79016px -21.64052px 0 -1.66667px, $loadingStyle -26.58223px -20.76831px 0 -1.73333px, $loadingStyle -27.34477px -19.86714px 0 -1.8px, $loadingStyle -28.07674px -18.938px 0 -1.86667px, $loadingStyle -28.7771px -17.98193px 0 -1.93333px, $loadingStyle -29.44486px -17.0px 0 -2px, $loadingStyle -30.07908px -15.99333px 0 -2.06667px, $loadingStyle -30.67884px -14.96307px 0 -2.13333px, $loadingStyle -31.24325px -13.91039px 0 -2.2px, $loadingStyle -31.7715px -12.83652px 0 -2.26667px, $loadingStyle -32.26278px -11.74269px 0 -2.33333px, $loadingStyle -32.71634px -10.63018px 0 -2.4px, $loadingStyle -33.13149px -9.5003px 0 -2.46667px, $loadingStyle -33.50755px -8.35437px 0 -2.53333px, $loadingStyle -33.84391px -7.19374px 0 -2.6px, $loadingStyle -34.14px -6.0198px 0 -2.66667px, $loadingStyle -34.39531px -4.83395px 0 -2.73333px, $loadingStyle -34.60936px -3.63759px 0 -2.8px, $loadingStyle -34.78173px -2.43218px 0 -2.86667px, $loadingStyle -34.91205px -1.21916px 0 -2.93333px, $loadingStyle -35px 0.0px 0 -3px, $loadingStyle -35.04531px 1.22381px 0 -3.06667px, $loadingStyle -35.04775px 2.45078px 0 -3.13333px, $loadingStyle -35.00717px 3.6794px 0 -3.2px, $loadingStyle -34.92345px 4.90817px 0 -3.26667px, $loadingStyle -34.79654px 6.13557px 0 -3.33333px, $loadingStyle -34.62643px 7.36007px 0 -3.4px, $loadingStyle -34.41316px 8.58016px 0 -3.46667px, $loadingStyle -34.15683px 9.79431px 0 -3.53333px, $loadingStyle -33.85761px 11.001px 0 -3.6px, $loadingStyle -33.5157px 12.19872px 0 -3.66667px, $loadingStyle -33.13137px 13.38594px 0 -3.73333px, $loadingStyle -32.70493px 14.56117px 0 -3.8px, $loadingStyle -32.23675px 15.72291px 0 -3.86667px, $loadingStyle -31.72725px 16.86968px 0 -3.93333px, $loadingStyle -31.17691px 18px 0 -4px, $loadingStyle -30.58627px 19.11242px 0 -4.06667px, $loadingStyle -29.95589px 20.2055px 0 -4.13333px, $loadingStyle -29.28642px 21.27783px 0 -4.2px, $loadingStyle -28.57852px 22.32799px 0 -4.26667px, $loadingStyle -27.83295px 23.35462px 0 -4.33333px, $loadingStyle -27.05047px 24.35635px 0 -4.4px, $loadingStyle -26.23192px 25.33188px 0 -4.46667px, $loadingStyle -25.37819px 26.27988px 0 -4.53333px, $loadingStyle -24.49018px 27.1991px 0 -4.6px, $loadingStyle -23.56888px 28.0883px 0 -4.66667px, $loadingStyle -22.6153px 28.94626px 0 -4.73333px, $loadingStyle -21.6305px 29.77183px 0 -4.8px, $loadingStyle -20.61558px 30.56385px 0 -4.86667px, $loadingStyle -19.57168px 31.32124px 0 -4.93333px, $loadingStyle -18.5px 32.04294px 0 -5px, $loadingStyle -17.40175px 32.72792px 0 -5.06667px, $loadingStyle -16.27818px 33.37522px 0 -5.13333px, $loadingStyle -15.1306px 33.98389px 0 -5.2px, $loadingStyle -13.96034px 34.55305px 0 -5.26667px, $loadingStyle -12.76875px 35.08186px 0 -5.33333px, $loadingStyle -11.55724px 35.56951px 0 -5.4px, $loadingStyle -10.32721px 36.01527px 0 -5.46667px, $loadingStyle -9.08014px 36.41843px 0 -5.53333px, $loadingStyle -7.81748px 36.77835px 0 -5.6px, $loadingStyle -6.54075px 37.09443px 0 -5.66667px, $loadingStyle -5.25147px 37.36612px 0 -5.73333px, $loadingStyle -3.95118px 37.59293px 0 -5.8px, $loadingStyle -2.64145px 37.77443px 0 -5.86667px, $loadingStyle -1.32385px 37.91023px 0 -5.93333px;
+  -moz-animation: whirly-loader 1.25s infinite linear;
+  -webkit-animation: whirly-loader 1.25s infinite linear;
+  animation: whirly-loader 1.25s infinite linear;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.btn {
+  background-color: $style;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.c-r {
+  color: $style;
+  cursor: pointer;
+}
+
+.c-r-d {
+  color: $style;
+}
+
+.c-p {
+  cursor: pointer;
+}
+
+.o-h {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.main-area {
+  height: 100vh;
+  overflow-y: auto;
+  @include radial-gradient();
+  display: flex;
+  justify-content: center;
+  &.haveTop {
+    height: calc(100vh - 56px);
+  }
+  &.have2Top{
+    height: calc(100vh - 56px * 2);
+  }
+}
+
+.loop {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 180px;
+  height: 385px;
+  position: relative;
+  font-size: 0.8rem;
+
+  >div {
+    width: 100%;
+    height: 385px;
+    position: absolute;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    >div {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      >div {
+        &:first-child {
+          flex: 4;
+          display: flex;
+          flex-direction: column;
+
+          >div {
+            flex: 1;
+            overflow: hidden;
+            line-height: 30px;
+            font-size: 15px;
+          }
+
+          .color {
+            font-weight: 100;
+            line-height: 55px;
+            font-size: 22px;
+            color: #fd3636;
+          }
+        }
+
+        &:last-child {
+          flex: 1;
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+
+      &:last-child {
+        >div:first-child .color {
+          color: #1aabff;
+        }
+      }
+    }
+
+    &.text-live {
+      >div {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        >div {
+          font-weight: 100;
+
+          &:first-child {
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            >div {
+              font-size: 24px;
+              text-align: left;
+              margin-top: 5px;
+            }
+
+            .color {
+              font-size: 40px;
+              margin-top: -5px;
+              margin-right: 5px;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.main-list {
+  min-height: calc(100vh - 56px * 2);
+  width: 100%;
+  max-width: calc(1440px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: calc(1200px - 247px);
+  >div{
+    padding: 0 20px;
+  }
+  .select {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    padding: 10px 0;
+    .ant-select-selection {
+      background-color: transparent;
+      border: 0;
+      &:hover,
+      &:active,
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .batch-btn.ant-radio-button-wrapper {
+      border: 1px solid #ffffff;
+    }
+
+    .ant-input-search {
+      .ant-input {
+        border: 0;
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 1px solid #d9d9d9;
+        &:hover,
+        &:active,
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+
+    .m-0-10 {
+      margin: 0 10px;
+    }
+
+    .f-r {
+      float: right;
+    }
+
+    .btn {
+      min-width: 120px;
+      padding: 0 5px;
+      margin: 0 5px;
+      border: 1px solid $style;
+      background-color: transparent;
+      letter-spacing: 1px;
+      color: $style;
+
+      &:hover {
+        color: white;
+        background-color: $style;
+      }
+    }
+
+    .search {
+      background: white;
+      display: inline-block;
+      overflow: hidden;
+      border: 1px solid $style;
+      height: 2.5rem;
+      line-height: 2.5rem;
+
+      input {
+        height: 2.5rem;
+        background: white;
+        border: 0;
+        padding: 0;
+        text-indent: 0.4rem;
+      }
+
+      span {
+        color: white;
+        display: inline-block;
+        padding: 0 15px;
+        background: $style;
+        cursor: pointer;
+
+        &:last-child {
+          height: 100%;
+        }
+      }
+
+      .ico {
+        display: inline-block;
+        margin: -2px 10px;
+        padding: 0;
+        @include sprite1127(-57, -62, 1);
+        cursor: default;
+        width: 15px;
+        height: 14px;
+      }
+    }
+
+    .box {
+      color: $style;
+      position: relative;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+      border: 1px solid $style;
+      min-width: 160px;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      margin: 0 0 0 15px;
+      background-color: white;
+
+      .text {
+        position: absolute;
+        width: 85%;
+        left: 0;
+        top: 0;
+        display: inline-block;
+        overflow: hidden;
+      }
+
+      .ico {
+        position: absolute;
+        display: inline-block;
+        float: right;
+        top: 12px;
+        right: 7px;
+        @include sprite1127(-34, -62, 1);
+        width: 15px;
+        height: 14px;
+      }
+
+      .mini {
+        background: url('../images/mini.png') no-repeat;
+        top: 16px;
+      }
+
+      ul {
+        display: none;
+        border: 1px solid $style;
+        position: absolute;
+        left: -1px;
+        top: 2.5rem;
+        background-color: #f5f5f5;
+        z-index: 400;
+        width: 100%;
+
+        li {
+          float: left;
+          color: $style;
+          width: 100%;
+          height: 2.5rem;
+          line-height: 2.5rem;
+          margin: 0;
+
+          &:hover {
+            background-color: $style;
+            color: white;
+          }
+        }
+      }
+
+      &:hover ul {
+        display: block;
+      }
+    }
+  }
+
+  .list {
+    .outFile {
+      background: url('../images/outFile.png') no-repeat 50% 50%;
+      background-color: #999;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    >li {
+
+      .checked {
+        top: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 0;
+
+        .angle {
+          top: -40px;
+          right: -40px;
+          position: absolute;
+          @include rotate(45);
+          background: #ddd;
+          text-align: center;
+          height: 80px;
+          width: 80px;
+        }
+
+        span {
+          position: absolute;
+          right: 8px;
+          color: #757575;
+          font-size: 14px;
+          line-height: 36px;
+          @include hover-style();
+        }
+      }
+
+      &.uploadingArea {
+        .img-cell {
+          >div {
+            opacity: 0.6;
+          }
+        }
+      }
+
+      &.current {
+        .img-cell {
+          >div {
+            opacity: 0.6;
+          }
+        }
+
+        .checked {
+          display: block;
+
+          .angle {
+            background-color: $sub-color-yellow;
+          }
+
+          span {
+            color: white;
+          }
+        }
+      }
+
+      &.hover {
+        .checked {
+          display: none;
+        }
+      }
+
+      &:hover {
+        .info {
+          p:first-child {
+            cursor: pointer;
+            color: $style;
+          }
+        }
+      }
+    }
+    >li{
+        width: 22%;
+        margin: 1.1% 1.4%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0 2px 6px 0 #ccc;
+        -moz-box-shadow: 0 2px 6px 0 #ccc;
+        box-shadow: 0 2px 6px 0 #ccc;
+        .img-cell{
+          .right-bottom-tip{
+            line-height: 13px;
+            text-align: left;
+            margin: 3px 0;
+            .duration{
+              color: white;
+               background-color: transparent;
+              font-size: 12px;
+              text-shadow: 1px 0 0 #333;
+              span{
+                margin: 0 5px;
+              }
+            }
+          }
+        }
+        .info,.ctrl{
+          height: 60px;
+          padding: 0 8px;
+        }
+        .ctrl{
+          display: none;
+          .ico{
+            display: inline-block;
+            font-size: 20px;
+            width: 50px;
+            cursor: pointer;
+            text-align: center;
+            @include hover-style();
+          }
+        }
+        &.hover:hover{
+          .info{
+            display: none;
+            &.lasting{
+              display: block;
+            }
+          }
+          .ctrl{
+            display: flex;
+            align-items: center;
+          }
+        }
+}
+    >li {
+      @include user-select-none();
+      display: inline-block;
+      width: 22%;
+      margin: 1%;
+
+      @media screen and (max-width: 1810px) {
+        width: 23%;
+      }
+
+      @media screen and (max-width: 1430px) {
+        width: 31%;
+      }
+
+      overflow: hidden;
+      position: relative;
+
+      .out_type {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        background-color: $tip-color-6;
+        color: white;
+        border-radius: 3px;
+        text-align: center;
+        width: 60px;
+        height: 20px;
+        line-height: 20px;
+      }
+
+      .status {
+        bottom: 0;
+        top: auto;
+        left: auto;
+        z-index: 1;
+        width: 60px;
+        display: inline;
+      }
+      .status0,
+      .status1 {
+        background-color: #AB9BFF
+      }
+      .status2 {
+        display: none;
+      }
+      .status3 {
+        background-color: red;
+      }
+      .status-yellow {
+        background-color: #FFC03B;
+      }
+      .status-blue {
+        background-color: #1890FF;
+      }
+      & {
+        position: relative;
+        .progress {
+          position: absolute;
+          width: 80%;
+          height: 30%;
+          left: -50%;
+          right: -50%;
+          top: 25%;
+          margin: auto;
+
+          .ant-progress-text {
+            color: white;
+          }
+
+          .icoArea {
+            text-align: center;
+            justify-content: space-around;
+            width: 60%;
+            margin: 16px auto;
+            display: flex;
+
+            >div {
+              width: 30%;
+              display: flex;
+              color: white;
+              cursor: pointer;
+              font-size: 14px;
+              line-height: 20px;
+              align-items: center;
+              flex-direction: column;
+
+              .ico {
+                margin: 3px;
+                width: 20px;
+                height: 20px;
+                font-size: 20px;
+                border-radius: 20px;
+              }
+
+              &:hover {
+                color: #bfbfbf;
+              }
+            }
+          }
+        }
+
+        .uploading {
+          position: absolute;
+          color: white;
+          width: 100%;
+          height: 60px;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.8);
+
+          p {
+            height: 60px;
+            margin: 0;
+            overflow: hidden;
+            padding: 0 20px;
+            line-height: 60px;
+          }
+        }
+      }
+      .info {
+        width: 100%;
+        min-height: 60px;
+        bottom: 0;
+
+        p {
+          color: #272727;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin: 0;
+          height: 28px;
+          font-size: 14px;
+          line-height: 33px;
+
+          &.desc,
+          &:last-child {
+            height: 18px;
+            font-size: 12px;
+            line-height: 18px;
+            display: flex;
+            justify-content: space-between;
+            color: #999;
+
+            .ico {
+              margin: 0 3px;
+              cursor: pointer;
+              @include hover-style();
+            }
+          }
+        }
+      }
+      .bottomInfo {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 38px;
+        bottom: 0;
+        line-height: 38px;
+        background-color: white;
+
+        >span {
+          display: inline-block;
+          min-width: 60px;
+          margin-left: 15px;
+
+          >span {
+            display: inline-block;
+            margin: -5px -2px;
+            width: 20px;
+            height: 20px;
+            @include sprite1127(-140, -10, 1);
+          }
+
+          &.saw {
+            >span {
+              margin: -6px -2px;
+            }
+          }
+
+          &.praise {
+            margin-left: 5px;
+            float: right;
+
+            >span {
+              margin: -4px -2px;
+              @include sprite1127(-166, -10, 1);
+            }
+          }
+
+          &.reply {
+            margin-left: 5px;
+            float: right;
+
+            >span {
+              @include sprite1127(-113, -10, 1);
+            }
+          }
+        }
+
+      }
+      .img-cell {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        font-size: 13px;
+        .stance {
+          z-index: -1;
+          width: auto;
+          height: auto;
+          float: left;
+          display: block;
+          max-width: 100%;
+          max-height: 100%;
+          overflow: hidden;
+        }
+
+        .right-bottom-tip {
+          bottom: 0;
+          top: auto;
+          right: 0;
+          color: white;
+          height: 20px;
+          text-align: right;
+          display: inline-block;
+          position: absolute;
+
+          .out_type {
+            float: right;
+            margin-right: 5px;
+          }
+
+          span {
+            padding: 0;
+            height: 100%;
+            line-height: 20px;
+            display: inline-block;
+            min-width: 80px;
+            position: static;
+            margin: 0;
+            text-align: center;
+
+            &.only_ico {
+              min-width: 0;
+            }
+          }
+
+          .duration {
+            background-color: rgba(0, 0, 0, 0.6);
+
+            &.materialLibrary-list {
+              font-size: 12px;
+            }
+          }
+
+          .status0,
+          .status1 {
+            background-color: #AB9BFF
+          }
+
+          .status2 {
+            display: none;
+          }
+
+          .status3 {
+            background-color: red;
+          }
+
+          .status-yellow {
+            background-color: #FFC03B;
+          }
+
+          .status-blue {
+            background-color: #1890FF;
+          }
+        }
+
+        >div {
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+
+          img {
+            width: auto;
+            height: auto;
+            margin: -2%;
+            max-width: 104%;
+            max-height: 104%;
+            display: block;
+            transition: all .5s ease-in-out;
+          }
+
+          &:hover {
+            img {
+              transform: scale(1.08, 1.08);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  ul.list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ctrl {
+    >p {
+      >span {
+        display: inline-block;
+        color: #ccc;
+      }
+    }
+  }
+}
+
+.user {
+  .portrait {
+    img {
+      margin: 30px auto 5px;
+      overflow: hidden;
+      border-radius: 80px;
+      border: 0;
+      display: block;
+      width: 120px;
+      height: 120px;
+
+      &.unknown {
+        @include sprite1127(-140, -435, 1);
+        display: block;
+        margin: 30px auto 5px;
+        width: 140px;
+        height: 140px;
+      }
+    }
+
+    p {
+      color: $style;
+    }
+  }
+
+  p {
+    cursor: pointer;
+    text-align: center;
+    margin: 5px auto;
+    color: #666;
+  }
+
+  ul {
+    min-width: 160px;
+    margin: 20px auto 5px auto;
+
+    li {
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px auto 0 auto;
+
+      >span {
+        margin: 0 3px;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+.t-a-c {
+  text-align: center;
+}
+
+.t-a-r {
+  text-align: right;
+}
+
+
+.c-gray {
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.dialog {
+  display: none;
+  top: 0 !important;
+  z-index: 999;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  .color-r {
+    color: transparent;
+  }
+
+  &.dialog-loading {
+    z-index: 9999;
+  }
+
+  .shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    height: 100%;
+  }
+
+  .scope {
+    width: 100%;
+    height: 0;
+    position: absolute;
+
+    .win {
+      @media screen and (max-width: 1500px) {
+        transform: scale(0.85, 0.85);
+      }
+
+      min-width: 300px;
+      width: 400px;
+      min-height: 200px;
+      margin: 30vh auto;
+      background-color: white;
+      border-radius: 5px;
+      z-index: 1;
+
+      input {
+        border-radius: 5px;
+        width: 200px;
+        text-indent: 1rem;
+
+        &.code {
+          width: 80px;
+        }
+      }
+
+      .btn {
+        text-indent: 0;
+        height: 24px;
+        line-height: 26px;
+        text-align: center;
+        display: inline-block;
+
+        &.code {
+          width: 100px;
+          height: 24px;
+          font-size: 0.9rem;
+          margin: 3px 15px;
+          line-height: 26px;
+        }
+      }
+
+      .title {
+        height: 48px;
+        line-height: 48px;
+        overflow: hidden;
+        color: $style;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+          margin: 0 20px;
+        }
+
+        border-bottom: 2px solid $style;
+
+        &.loading {
+          border-bottom: 2px solid transparent;
+
+          margin-bottom: -15px;
+        }
+
+        .desc {
+          color: #999;
+        }
+      }
+
+      span.close {
+        cursor: pointer;
+        float: right;
+        background: url('../images/close.png') no-repeat;
+        display: inline-block;
+        margin: 15px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .main {
+        color: #666;
+
+        &>ul,
+        .info .body>ul {
+          margin: 10px 30px;
+
+          li {
+            width: 100%;
+            margin: 0;
+            display: inline-block;
+            margin-top: 16px;
+            overflow: inherit;
+
+            span:first-child {
+              width: 86px;
+            }
+
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            border-bottom: 0;
+
+            span,
+            input {
+              min-width: 80px;
+              float: left;
+            }
+
+            input {
+              padding: 0;
+              border: 1px solid #999;
+              height: 24px;
+              margin: 2px;
+            }
+
+            label {
+              display: inline-block;
+              cursor: pointer;
+              text-align: left;
+              width: 20%;
+              margin-right: 12%;
+
+              input {
+                cursor: pointer;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                min-width: 15px;
+                margin: 9px 10px -9px;
+                width: 15px;
+                height: 15px;
+
+              }
+            }
+
+            &:last-child {
+              padding-bottom: 15px;
+              height: 40px;
+              text-align: center;
+
+              .btn {
+                float: none;
+                margin: 5px;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+              }
+            }
+          }
+
+          .msg {
+            height: 20px !important;
+            line-height: 20px !important;
+            margin: 5px auto -15px auto;
+          }
+        }
+
+        .detailMaterial {
+          letter-spacing: 0.5px;
+          margin: 5px auto;
+          width: 700px;
+
+          .media {
+            width: 100%;
+            height: 280px;
+            margin: 5px auto;
+            overflow: hidden;
+            display: block;
+            background-color: #333;
+          }
+
+          .info {
+            .heard {
+              border-bottom: 1px solid #ddd;
+
+              span {
+                display: inline-block;
+                margin: 5px 0;
+                color: #333;
+                font-size: 1.1rem;
+
+                &:last-child {
+                  color: #999;
+                  margin-bottom: 10px;
+                  font-size: 0.9rem;
+                }
+              }
+            }
+            .body {
+              margin-top: 15px;
+              overflow: hidden;
+
+              ul {
+                width: 108%;
+
+                li {
+                  margin: 0;
+                  height: 30px;
+                  line-height: 30px;
+                  display: inline-block;
+                  text-align: left;
+                  font-size: 0.9rem;
+                  width: 25%;
+                  margin-right: 8%;
+                  color: #2faefe;
+
+                  span {
+                    color: #666;
+                    display: inline;
+                    min-width: 30px;
+                    width: auto;
+                  }
+
+                  &:last-child {
+                    padding-bottom: 0;
+                  }
+                }
+              }
+            }
+
+            .platform {
+              >div {
+                color: #333;
+                height: 48px;
+                display: flex;
+                border-bottom: 0;
+                line-height: 48px;
+                border-top: 1px solid #ddd;
+
+                >div {
+                  flex: 1;
+                  overflow: hidden;
+                  text-align: center;
+
+                  &:first-child {
+                    text-indent: 40px;
+                    text-align: left;
+                  }
+                }
+
+                &:last-child {
+                  margin-bottom: 20px;
+                }
+              }
+
+              .title {
+                font-size: 0.9rem;
+
+                >div {
+                  flex: 1;
+                }
+              }
+
+              .content {
+                color: #666;
+                font-size: 0.8rem;
+
+                .ico-platform {
+                  transform: scale(0.75, 0.75);
+                  margin: 0 -28px 0 15px;
+                }
+
+                >div {
+                  flex: 1;
+                }
+
+                .ico-pl-status {
+                  margin: -5px 3px;
+                  color: #666;
+                  @include sprite1127(-100, -152);
+                }
+
+                .nothing {
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+
+        .cell {
+          text-align: center;
+          font-size: 1.15rem;
+          color: $loadingStyle;
+
+          .card {
+            span {
+              display: block;
+              margin: 55px auto;
+            }
+          }
+        }
+
+        .select {
+          height: 30px;
+          margin: 10px 15px;
+          line-height: 30px;
+
+          .search {
+            border: 1px solid $style;
+            display: inline-block;
+            overflow: hidden;
+
+            input {
+              height: 28px;
+              border: 0;
+              padding: 0;
+              text-indent: 0;
+            }
+
+            span {
+              color: white;
+              display: inline-block;
+              padding: 0 15px;
+              background: $style;
+              cursor: pointer;
+
+              &:last-child {
+                height: 100%;
+              }
+            }
+
+            .ico {
+              display: inline-block;
+              margin: -2px 10px;
+              padding: 0;
+              @include sprite1127(-57, -62, 1);
+              cursor: default;
+              width: 15px;
+              height: 14px;
+            }
+          }
+        }
+        .tail {
+          text-align: right;
+          height: 30px;
+          margin: 10px 15px;
+
+          span {
+            display: inline-block;
+            border: 1px solid $style;
+            margin: 0 10px;
+            height: 30px;
+            line-height: 30px;
+            padding: 0 20px;
+            border-radius: 5px;
+          }
+
+          .cancel {
+            background: white;
+            color: $style;
+          }
+        }
+      }
+    }
+  }
+
+  &.guide {
+    .shadow {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .shortcut-bg {
+      background: white;
+      margin: 10vh auto;
+      border-color: white;
+      width: 550px;
+      border-radius: 5px;
+      height: 580px;
+
+      .tab {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >span {
+          letter-spacing: 1px;
+          display: inline-block;
+          text-align: center;
+          border: 1px solid #ccc;
+          margin: 0 25px;
+          background-color: #f5f5f5;
+          border-radius: 8px;
+          width: 150px;
+          cursor: pointer;
+          line-height: 35px;
+          height: 35px;
+
+          .ico {
+            display: inline-block;
+            margin: -5px 7px;
+            @include sprite1127(-7, -798);
+          }
+
+          .ico-windows {
+            @include sprite1127(-37, -795);
+            width: 20px;
+            height: 20px;
+          }
+
+          &:hover,
+          &.current {
+            color: white;
+            background: $style;
+
+            .ico {
+              display: inline-block;
+              margin: -5px 7px;
+              @include sprite1127(-7, -830);
+            }
+
+            .ico-windows {
+              @include sprite1127(-37, -826);
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+
+      .detail {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+
+        //align-items: center;
+        >div {
+          flex: 1;
+          margin: 10px 20px;
+
+          .unit {
+            display: flex;
+            height: 55px;
+            line-height: 55px;
+            overflow: hidden;
+            border-bottom: 1px solid #ccc;
+
+            >div {
+              flex: 1;
+
+              &.w-50 {
+                flex: 0;
+                flex-basis: 65px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.show {
+  display: block;
+}
+
+#result {
+  width: 99%;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  border: 1px solid #aaa;
+
+  p {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  div {
+    height: 20px;
+    width: 0;
+    background-color: #50c05c;
+  }
+}
+
+.btn-s {
+  background-color: $style;
+  height: 26px;
+  width: 80px;
+  line-height: 26px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+  margin: 0 6px;
+  color: white;
+}
+
+//无文件显示图标svg
+.hasnone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 56px * 2);
+  svg {
+    height: 300px;
+    width: 300px;
+    font-size: 300px;
+  }
+  p {
+    font-size: 16px;
+    width: 100%;
+    color: #ccc;
+    text-align: center;
+    // 正在接入中
+    &.access {
+      font-size: 24px;
+      color: #CCCCCC;
+    }
+  }
+}
+
+// 页面loading
+.list-loading{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+@import "main-nav";
+@import "main-material";

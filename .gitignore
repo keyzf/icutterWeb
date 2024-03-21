@@ -1,0 +1,13 @@
+.DS_Store
+package/
+.idea/
+_temp/
+#build/
+*.zip
+build/static/css/*.map
+public/animate/
+build/static/js/*.map
+node_modules/
+#src/images/
+npm-debug.log*
+stager/

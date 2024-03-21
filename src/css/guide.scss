@@ -1,0 +1,52 @@
+.guide{
+  .step {
+    z-index: 99999;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 15px #cccccc;
+    -moz-box-shadow: 1px 1px 15px #cccccc;
+    box-shadow: 1px 1px 15px #cccccc;
+    border-radius: 7px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .info{
+      width: auto;
+      overflow: hidden;
+      overflow-y: auto;
+      position: relative;
+      p{
+        line-height: 22px;
+        margin: 5px;
+        .point{
+          color: red;
+        }
+        span{
+          cursor: auto;
+        }
+      }
+      .title{
+        color: #333;
+        line-height: 33px;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      .center{
+        text-align: center;
+        margin: 15px 5px;
+      }
+    }
+    &.center{
+      background: white;
+      border-color:white ;
+    }
+  }
+  .ui-draggable-dragging.mater-helper {
+    z-index: 9999 !important;
+  }
+}

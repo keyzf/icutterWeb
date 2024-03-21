@@ -1,0 +1,59 @@
+.detail {
+  height: 510px;
+  width: 766px;
+  display: flex;
+  flex-direction: column;
+  >div{
+    flex: 1;
+    display: flex;
+    >div{
+      flex:2
+    }
+  }
+  >Button{
+     width: 120px;
+     align-self: flex-end;
+  }
+  .detail-left{
+    flex: 3;
+    >img{
+      width: 400px;
+    }
+    .player{
+      height: 54%;
+    }
+    >div{
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  .detail-right{
+    padding-left: 20px;
+    padding-top: 10px;
+    >div{
+      height: 40px;
+      line-height: 40px;
+      margin: 20px 0;
+      border-bottom: 1px solid #D8D8D8;
+      &.textArea{
+        border-bottom: none;
+        height: 70px;
+      }
+    }
+  }
+  .detail-title{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(35,35,35,1);
+  }
+  .detail-name{
+    font-size:14px;
+    color:rgba(136,136,136,1);
+    padding-right: 10px;
+  }
+  .detail-val{
+    font-size:14px;
+    color:rgba(35,35,35,1);
+  }
+
+}

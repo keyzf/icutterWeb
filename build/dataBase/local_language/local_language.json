@@ -1,0 +1,953 @@
+{"home":{
+  "_000":[
+    "帮助中心",
+    "",
+    "Help"
+  ],
+  "_001":[
+    "交流中心",
+    "",
+    "Contact"
+  ],
+  "_003":[
+    "价格方案",
+    "",
+    "Price"
+  ],
+  "_002":[
+    "关于我们",
+    "",
+    "About"
+  ],
+  "_004":[
+    "控制台",
+    "",
+    "Console"
+  ],
+  "_005":[
+    "我的账户",
+    "",
+    "Account"
+  ],
+  "_006":[
+    "退出登录",
+    "",
+    "Exit"
+  ],
+  "_007":[
+    "后台管理",
+    "",
+    "Management"
+  ],
+  "_008":[
+    "让天下没有难做的",
+    "",
+    "Edit & Publish Video is so Easy"
+  ],
+  "_009":[
+    "视频",
+    "",
+    "Video"
+  ],
+  "_010":[
+    "专业级云端视频创作平台，人人都能上手创作专业级影片， ",
+    "",
+    "With professional cloud video creation platform, everybody can create professional films."
+  ],
+  "_011":[
+    "让创意、制作、发布、变现一气呵成",
+    "",
+    "Let creativity, production, publish, and realisation happen in one go"
+  ],
+  "_012":[
+    "申请试用",
+    "",
+    "sign up"
+  ],
+  "_013":[
+    "视频剪辑",
+    "",
+    "Video Edit"
+  ],
+  "_014":[
+    "OnVideo提供了真正摆脱大型制作软件，人人都能在云端创作专业级影片的新可能",
+    "",
+    "OnVideo provides a new possibility that people can really get rid of large-scale production software, to create professional films on the platform."
+  ],
+  "_015":[
+    "云端素材汇聚",
+    "",
+    "Support get materia from cloud video platform"
+  ],
+  "_016":[
+    "支持本地、第三方平台导入视频、音频、图片素材。云端素材库、素材交易市场正在建设中",
+    "",
+    "Support import video, audio, picture materials from the local and third party platform. Cloud library and material trading market are under construction."
+  ],
+  "_017":[
+    "专业操作台",
+    "",
+    "Professional operation panel"
+  ],
+  "_018":[
+    "基于浏览器的专业时间线编辑，无限轨道叠加；极简操作界面，支持剪辑、转场、调色、字幕、音效、特效制作",
+    "",
+    "Browser-based professional timeline editing, unlimited track overlay; Minimalist operating interface, which supports for editing, transitions, color mixing, subtitles, sound effects and special effects production"
+  ],
+  "_019":[
+    "专业字幕",
+    "",
+    "Professional subtitles"
+  ],
+  "_020":[
+    "静态字幕，字幕条，滚动字幕，游动字幕各种字幕效果支持",
+    "",
+    "Supports various subtitles effects including static subtitles, subtitles, scroll captions, cartoon captions, etc."
+  ],
+  "_021":[
+    "多种酷炫特效",
+    "",
+    "A variety of cool special effects"
+  ],
+  "_022":[
+    "滤镜、抠像，倒放，去LOGO，马赛克，防抖动等多种特效",
+    "",
+    "Supports filter, chromakey, reverse, delogo, mosaic, deshake and other special effects."
+  ],
+  "_024":[
+    "一键发布至全网各大播出平台，全网播放数据一眼尽收",
+    "",
+    "one click to publish video to multi-platform, gathering all platform playback data display in OnVideo."
+  ],
+  "_023":[
+    "全网发布运营",
+    "",
+    "Merge all platform data show in one page"
+  ],
+  "_025":[
+    "4K高清",
+    "",
+    "4K HD"
+  ],
+  "_026":[
+    "支持多码率输出，支持高达4K清晰度输出",
+    "",
+    "Supports multi-rate and 4K HD output."
+  ],
+  "_028":[
+    "全球节点部署，海内外各大视频平台支持",
+    "",
+    "Global node deployment, supports major video platforms at home and abroad"
+  ],
+  "_027":[
+    "全球支持",
+    "",
+    "Global support"
+  ],
+  "_029":[
+    "直播流接入，剪辑，发布 ，秒级完成",
+    "",
+    "Live streaming Access, Cutting, Publishing, publishing in second level"
+  ],
+  "_030":[
+    "秒级生成",
+    "",
+    "Creation completing between 0.5 and 2 seconds"
+  ],
+  "_031":[
+    "拆剪后数秒内合成完毕",
+    "",
+    "Concate all fragments combine them into one between 0.5 and 2 seconds"
+  ],
+  "_032":[
+    "实时拆条",
+    "",
+    "Real time cut"
+  ],
+  "_035":[
+    "支持多个剪辑片段拼接为一个视频",
+    "",
+    "Supports multiple fragments to be concatenated into one video"
+  ],
+  "_033":[
+    "对过去数秒内的直播即可实时拆剪为短视频，支持推、拉方式及多种直播协议",
+    "",
+    "The live broadcasting in the past few seconds can be cut into short videos in real time, supporting push and pull mode and various live broadcast protocols."
+  ],
+  "_034":[
+    "多片段拼接",
+    "",
+    "Multi-segment concatenating"
+  ],
+  "_037":[
+    "支持批量导出，支持一键多平台发布",
+    "",
+    "Supports batch export, one click to release at multi-platform"
+  ],
+  "_036":[
+    "一键多平台发布",
+    "",
+    "One click to publish at multi-platform"
+  ],
+  "_038":[
+    "简单高效",
+    "",
+    "Simple and efficient"
+  ],
+  "_039":[
+    "浏览器中操作，通过轨道缩略图可快速精准定位，步骤简单，数秒内即完成拆剪",
+    "",
+    "Operating in web browser, we can quickly and accurately locate through orbit thumbnails , with simple steps we can able to complete the demolition within a few seconds."
+  ],
+  "_041":[
+    "不仅仅是本地到云端的简单迁移，OnVideo带来的是围绕视频制作的一系列全新工作方式",
+    "",
+    "It's not just a simple migration from the local to the cloud, OnVideo brings a whole new method of working around video production."
+  ],
+  "_040":[
+    "平台价值",
+    "",
+    "Platform value"
+  ],
+  "_042":[
+    "在线",
+    "",
+    "Online"
+  ],
+  "_043":[
+    "云端计算，扔掉软件和设备诸多限制的包袱， 让创作、发布、运营不再有界限，让软件无法实现的协作、 交流、交易、变现融为一体",
+    "",
+    "Process on cloud, throwing away the restrictions of software and equipment, making the creation, publish, and operation without limitations, in order to merge cooperation, exchange and transaction which software cannot be able to achieve."
+  ],
+  "_045":[
+    "推倒大型视频软件专业性的门槛，让人人都能上手， 让制作专业级影片不再是个技术活",
+    "",
+    "Lower the threshold of large video software professionalism so that everybody can take advantage of it, that making professional films is no longer a technical activity."
+  ],
+  "_044":[
+    "简单",
+    "",
+    "simple"
+  ],
+  "_046":[
+    "实时",
+    "",
+    "real-time"
+  ],
+  "_047":[
+    "云端制作也将保持接近本地软件的平滑体验， 编辑效果实时预览，所见即所得",
+    "",
+    "Cloud production will also stay close to the smooth experience of local software, real-time preview of editing effects, and WYSIWYG."
+  ],
+  "_048":[
+    "智能",
+    "",
+    "Intelligence"
+  ],
+  "_050":[
+    "OnVideo 将为他们带来价值",
+    "",
+    "OnVideo will bring value to them"
+  ],
+  "_051":[
+    "OnVideo将为视频PGC机构、媒体机构、企业、个人视频爱好者在生产、发布、变现等各环节带来全新价值",
+    "",
+    "OnVideo will bring new value to the production, publishing and cashing of video PGC, media organizations, enterprises and personal video enthusiasts."
+  ],
+  "_049":[
+    "将AI人工智能引入到视频制作流程中，将大幅减少手工环节； 实现软件无法实现的效果和玩法； 出现更具智能化和 场景化的变现方式",
+    "",
+    "The introduction of AI into the video production process will greatly reduce the manual link; realize the effect and play of the software that can't be realized; a more intelligent and scene changing mode will appear."
+  ],
+  "_052":[
+    "PGC/MCN创作机构",
+    "",
+    "PGC/MCN creative organization"
+  ],
+  "_055":[
+    "自制节目可以尝试放下沉重的非编软件，节目上线更及时和灵活",
+    "",
+    "Homemade programs can try to put away heavy non-coding software, making programs more timely and flexible."
+  ],
+  "_053":[
+    "制作即运营，素材聚合、极速制作、全网发布、全网数据采集、内容变现不再彼此分离",
+    "",
+    "Production is operation, material aggregation, extreme speed production, whole network release, whole network data collection and content realisation are no longer separated from each other."
+  ],
+  "_054":[
+    "媒体机构",
+    "",
+    "Media institutions"
+  ],
+  "_056":[
+    "在线教育",
+    "",
+    "Online education"
+  ],
+  "_057":[
+    "课件可以制作的更专业更有趣，而且不再花费更多时间",
+    "",
+    "Courseware can be made more professional and interesting, and it will no longer cost more time."
+  ],
+  "_060":[
+    "视频平台",
+    "",
+    "Video platform"
+  ],
+  "_058":[
+    "个人",
+    "",
+    "personal"
+  ],
+  "_059":[
+    "每个人都可以利用OnVideo用精美的视频讲述自己的故事",
+    "",
+    "Everyone can use OnVideo to tell their stories with exquisite videos."
+  ],
+  "_061":[
+    "帮助平台用户不再发布未经制作的裸视频",
+    "",
+    "Help platform users no longer release videos that have not been produced."
+  ],
+  "_062":[
+    "企业",
+    "",
+    "enterprise"
+  ],
+  "_063":[
+    "企业宣传片，庆典活动纪念片，产品演示视频，市场活动视频制作无需再花高昂经费找专业公司",
+    "",
+    "You don't have to find professional companies to help you with propaganda, celebration films, product demonstration videos, or marketing campaign videos which cost you a lot."
+  ],
+  "_064":[
+    "OnVideo 每天都在成长",
+    "",
+    "OnVideo is growing every day"
+  ],
+  "_066":[
+    "个",
+    "",
+    "individual"
+  ],
+  "_067":[
+    "视频创作者",
+    "",
+    "Video Creator"
+  ],
+  "_065":[
+    "这是一个属于视频的时代，OnVideo将伴随着全球数以亿计的视频创作者一起成长",
+    "",
+    "This is an era of video. OnVideo will grow with hundreds of millions of video creators around the world."
+  ],
+  "_068":[
+    "已经发布视频",
+    "",
+    "Video has been released"
+  ],
+  "_070":[
+    "条",
+    "",
+    "strip"
+  ],
+  "_069":[
+    "最近30天发布视频",
+    "",
+    "The last 30 days to release video"
+  ],
+  "_071":[
+    "已收到功能请求",
+    "",
+    "Function requests received"
+  ],
+  "_072":[
+    "已收到产品评价",
+    "",
+    "Evaluation received"
+  ],
+  "_073":[
+    "已收到意见建议",
+    "",
+    "Advices received"
+  ],
+  "_074":[
+    "北京市朝阳区酒仙桥路10号院恒通国际商务园B8三层",
+    "",
+    "北京市朝阳区酒仙桥路10号院恒通国际商务园B8三层"
+  ],
+  "_075":[
+    "讨论交流QQ群",
+    "",
+    "QQ group"
+  ],
+  "_078":[
+    "京公网安备 11010102003032号 ",
+    "",
+    " Beijing Public Network Safety Filing No. 11010102003032"
+  ],
+  "_076":[
+    "北京区块云科技有限公司",
+    "",
+    "Beijing block cloud Technology Co., Ltd."
+  ],
+  "_077":[
+    "京ICP备17060095号-1 ",
+    "",
+    "Beijing ICP Filing No. 17060095-1"
+  ],
+  "_079":[
+    "OnVideo使用流程",
+    "",
+    "OnVideo usage"
+  ],
+  "_080":[
+    "时长、空间",
+    "",
+    "Time, space"
+  ],
+  "_081":[
+    "设备、浏览器、带宽",
+    "",
+    "Equipment, browsers, bandwidth"
+  ],
+  "_082":[
+    "素材格式",
+    "",
+    "Material format"
+  ],
+  "_084":[
+    "导入素材",
+    "",
+    "Importing Materials"
+  ],
+  "_085":[
+    "上传你的视频、音乐、图片素材，没有太多格式和大小的限制，我们也提供了大 量精美的素材供你使用。从第三方存储、视频平台导入功能正在陆续增加中。",
+    "",
+    "Upload your video, music, picture material, without format and size restrictions, we also provide a large number of materials for you to use. The functions importing from third party storage and video platform are gradually increasing."
+  ],
+  "_083":[
+    "更多问题",
+    "",
+    "More"
+  ],
+  "_086":[
+    "云端制作",
+    "",
+    "Cloud production"
+  ],
+  "_087":[
+    "OnVideo云端操作台，提供了专业的视频编辑方式和丰富功能， 相信你在新手引导下10分钟内就能上手操作，创作出属于你自己的精彩影片。 OnVideo进行了大量技术攻关，为了追求接近于本地软件的平滑体验， 虽然所有的视音频处理都在云端计算，但你依然能体验到OnVideo“即编即所得”的体验。",
+    "",
+    "OnVideo cloud operating platform, providing professional video editing and rich functions, we believe that you will be able to manage within 10 minutes under the guidance and create wonderful films of your own. OnVideo has carried out a lot of technical problems to pursue a smooth experience just like using a local software. Although all audio and audio processing is calculated on the cloud, you can still experience the \"what editing is what you need\" on the OnVideo."
+  ],
+  "_088":[
+    "全网发布",
+    "",
+    "Publish in all video platform"
+  ],
+  "_090":[
+    "全网数据统计",
+    "",
+    "Data statistics"
+  ],
+  "_089":[
+    "创作完成的影片，OnVideo将帮助你一键推送到各大视频平台、第三方存储， 或者导出下载到本地。免去了你一个一个平台去上传了。",
+    "",
+    "Once you've created a movie, OnVideo will help you push it to major video platforms, third-party storage, or you can export it and download it."
+  ],
+  "_092":[
+    "剩余时长和剩余空间？",
+    "",
+    "The remaining time and the remaining space?"
+  ],
+  "_091":[
+    "OnVideo会帮你实时汇总所有平台的播放表现数据，省去了一个一个平台去查看播放数据的麻烦。",
+    "",
+    "OnVideo will help you aggregate playback performance data from all platforms in real time, so you can view all data in one platform."
+  ],
+  "_094":[
+    "使用OnVideo对浏览器、设备、带宽的要求？",
+    "",
+    "What are the requirements for browser, device and bandwidth with OnVideo?"
+  ],
+  "_095":[
+    "浏览器：",
+    "",
+    "Browser:"
+  ],
+  "_093":[
+    "“时长”指的是制作好且发布成为影片的时长总和；“空间”指的是您账户中素材、影片、回收站里所有的内容的文件大小总和。 用户类型不同，会有不同的“剩余时长”和“剩余空间”，升级到高级账户类型会拥有更大的“时长剩余”和“存储剩余”。",
+    "",
+    "\"Time length\" refers to the sum of the time used to make and release the film; \"space\" refers to the sum of the contents including materials, films, and the files in recycling station in your account. Different types of users will have different \"remaining time\" and \"remaining space\", and upgrading to the advanced account type will have a larger \"time - long surplus\" and \"storage surplus\"."
+  ],
+  "_097":[
+    "谷歌浏览器 Google Chrome",
+    "",
+    "Google Chrome"
+  ],
+  "_096":[
+    "OnVideo在线编辑器基于HTML5技术，故只要是支持HTML5技术的浏览器均可使用OnVideo，我们发现以下浏览器的兼容性杠杠的",
+    "",
+    "The OnVideo online editor is based on HTML5 technology, so as long as the browser that supports HTML5 technology can use OnVideo, also we find the compatibility of the following browsers is excellent"
+  ],
+  "_098":[
+    "火狐浏览器 Mozilla Firefox",
+    "",
+    "Mozilla Firefox"
+  ],
+  "_099":[
+    "欧朋浏览器 Opera 15+",
+    "",
+    "Opera 15+"
+  ],
+  "_103":[
+    "需要保证你有足够的带宽来应付上传大文件或者一次性上传多个文件。",
+    "",
+    "You need to ensure that you have enough bandwidth to upload large files or upload multiple files at once."
+  ],
+  "_100":[
+    "设备：",
+    "",
+    "Equipment:"
+  ],
+  "_101":[
+    "应该大部分终端设备的性能都能使用OnVideo，不过你也有可能收到终端硬件不支持的提示，那可能是你的显卡配置太低的缘故，省点钱去买个好电脑吧！ 在iPad平板电脑等移动设备上同样可以使用OnVideo。",
+    "",
+    "Most of the terminal devices should be able to use OnVideo, but you may also receive warnings from the terminal hardware. May be the configuration of your graphics card is too low, try to save money to buy a good computer! OnVideo can also be used on mobile devices such as iPad."
+  ],
+  "_102":[
+    "带宽：",
+    "",
+    "Bandwidth:"
+  ],
+  "_104":[
+    "不同视频格式、音频格式、图片格式在OnVideo中的表现？",
+    "",
+    "How about the performance of different video formats, audio formats and picture formats in OnVideo?"
+  ],
+  "_106":[
+    "图片：",
+    "",
+    "Picture:"
+  ],
+  "_105":[
+    "OnVideo目前支持图片、视频、音频三种文件类型",
+    "",
+    "OnVideo currently supports three kinds of file types: picture, video and audio."
+  ],
+  "_108":[
+    "视频：",
+    "",
+    "Video:"
+  ],
+  "_109":[
+    "OnVideo支持市面上主流的封装格式和编码算法，但不排除有些奇形怪状的格式无法上传。出现这个情况，你可以联系我们帮你解决。 OnVideo对这些格式表示毫无压力：MP4/ 3GP/ AVI/ FLV/ MOV/3GPP, TS/ WMV/ MPEG/ M4V/ DIVX/ DV/ MJPEG/ MKV/ MOD/ MPG/ M2TS/ MTS/ OGV/ WEBM 。",
+    "",
+    "OnVideo supports the mainstream packaging formats and coding algorithms on the market. If some files with uncommon format can not be uploaded, you can contact us to solve it. OnVideo has no problem for dealing with the following formats: MP4/3GP/AVI/FLV/MOV/3GPP, TS/WMV/MPEG/M4V/DIVX/DV/MJPEG/MKV/MOD/MPG/M2TS/MTS/OGV/WEBM."
+  ],
+  "_107":[
+    "支持 JPG, GIF, PNG, TIFF, BMP等格式GIF在OnVideo中仅支持使用， 但不支持部分编辑效果图片的文件大小没有限制，但你需要注意你账户剩余空间为了保证输出影片的质量， 比如要输出720P或者1080P的影片，建议你使用高像素的图片，比如1024x768 或者更高的。",
+    "",
+    "Supports JPG, GIF, PNG, TIFF, BMP, and other formats. We only support to use files with GIF format in OnVideo, but no editing operation. There is no limit for the size of the picture, but you need to pay attention to the remaining space of your account to ensure the quality of the output film, such as a 720P or 1080P film. We suggest you to use a high pixel image, such as 1024x768 or higher."
+  ],
+  "_111":[
+    "音频：",
+    "",
+    "Audio:"
+  ],
+  "_112":[
+    "音频的格式支持.MP3/ .M4A/ .OGG/ .WAV/ .WMA/等音频的文件大小没有限制， 但你需要注意你账户剩余空间如果你是在制作MV或者对声音的要求较高的，我们建议你的音频素材要有较高采样率和比特率",
+    "",
+    "Supports audio format .MP3/.M4A/.OGG/.WAV/.WMA/ and without files size limit, but you need to pay attention to your account remaining space if you are making a MV or have high requirements on sound effect, we recommend that your audio material have a higher sampling and bit rate."
+  ],
+  "_110":[
+    "虽然格式限制不多，但.MP4的编辑体验最好的视频的文件大小没有限制， 但你需要注意你账户剩余空间为了保证输出影片的质量，比如要输出720P或者1080P的影片， 建议你使用高质量的视频素材，比如1280x720分辨率，20帧（fps）以上 或者更高的。",
+    "",
+    "Although there is not much limitation on format, the.MP4 editor experience the best video file without size limit, but you need to pay attention to the remaining space of your account to ensure the quality of the output film, such as 720P or 1080P films, we suggest that you use high-quality video material, such as 1280x720 resolution, 20 frame (FPS) or higher standard."
+  ],
+  "_114":[
+    "团队介绍",
+    "",
+    "Team Introduction"
+  ],
+  "_116":[
+    "余世兵",
+    "",
+    "Yu Shibing"
+  ],
+  "_117":[
+    "前蓝汛产品经理，观止云副总经理兼产品总监，多年CDN、音视频一线产品工作经验。 连续创业者，曾在手机打车、区块链领域创业获得投资。",
+    "",
+    "Former ChinaCache product manager, BravovCloud deputy general manager and product director, with many years of CDN and audio-video first-line product experience. Continuous entrepreneurs who has won investment in the field of mobile app and block chain."
+  ],
+  "_113":[
+    "对于OnVideo的使用，相信你在新手引导带领下10分钟内就能上手，操作以往只有专业人员在大型视频软件中操作的酷炫功能。如果你发现了BUG那么恭喜你，你提出的BUG被OnVideo确认后，你的剩余时长和剩余空间都会增长。如果你有更多的功能需求可以在功能请求中提出，OnVideo会予以排期进行开发，你对产品的贡献也会体现在账户剩余时长和剩余空间的增长中如果你觉得OnVideo做的还不错，确实给你带来了价值，我们希望你对OnVideo发表一些评价，从产品设计上，从功能上，从体验上等等。",
+    "",
+    "For the usage of OnVideo, we believe that you will be able to master it in 10 minutes under the guidance,and to use the fancy features that only existed in large video software that need to be operated by professionals.If you find a BUG, congratulations, once your proposed BUG is confirmed by OnVideo, your remaining time and space will grow.If you have more functional requirements, you can propose them in a functional request,OnVideo will arrange developers to handle it, and your contribution to the product will also be reflectedin the growth of the remaining time and space in your account.If you think OnVideo is doing well and does bring value to you, we would like you to write some comments,from product design, features, experiences, and so on."
+  ],
+  "_118":[
+    "刘歧 ",
+    "",
+    "Steven Liu"
+  ],
+  "_120":[
+    "宋韶颍 ",
+    "",
+    "Tony Song "
+  ],
+  "_119":[
+    "人称“大师兄”，曾任职蓝汛、高升、金山云等视频部门架构师及技术专家，FFmpeg 官方代码维护者，FFmpeg 官方推荐顾问。",
+    "",
+    "Called \"big brother\", once served as the architect and technical expert of the video department, such as CC, Gao Sheng and Kingsoft Cloud, the official FFmpeg code maintainer, and the official recommendation consultant of FFmpeg."
+  ],
+  "_122":[
+    "罗静敏",
+    "",
+    "Jingmin Luo"
+  ],
+  "_121":[
+    "OnVideo颜值担当，拥有大规模音视频编转码集群系统架构经验，主导开发的转码集群在多家广电机构稳定运行多年。",
+    "",
+    "OnVideo Dreamboat, with large scale audio video coding and transcoding cluster system architecture experience, the development of a transcoding cluster running stably in a number of radio and television institutions for many years."
+  ],
+  "_123":[
+    "人称“大喵”，妹子当汉子用，工作狂，全栈咖。多年研发团队管理经验，丰富的音视频系统开发经验。",
+    "",
+    "People call \"big meow\". A workaholic, years of research and development team management experience, rich experience in audio and video system development."
+  ],
+  "_115":[
+    "TEAM",
+    "",
+    "TEAM"
+  ],
+  "_124":[
+    "周乐兵",
+    "",
+    "Lebing Zhou"
+  ],
+  "_125":[
+    "大型系统后端架构师，国内第一个自助CDN平台创始人之一。",
+    "",
+    "The Python God, the back end architect of large-scale system, is one of the first self-service CDN platform in China."
+  ],
+  "_126":[
+    "徐斌",
+    "",
+    "Bin Xu"
+  ],
+  "_127":[
+    "老北京土著，拥有多年音视频传输开发经验，从零参与过大型直播分发网络的开发， 参与过超低延时点对点视频传输系统的开发。",
+    "",
+    "Beijing native, with years of video and audio transmission development experience, have participated in the development of large live distribution network, and participated in the development of ultra low delay point to point video transmission system."
+  ],
+  "_129":[
+    "写代码一把梭，手快BUG少，参与过大型直播分发网络从无到有的全周期开发。",
+    "",
+    "Code written master with less bug, participated in the large live broadcast distribution network from zero to the full cycle development."
+  ],
+  "_128":[
+    "范兵强",
+    "",
+    "Bingqiang Fan"
+  ],
+  "_130":[
+    "赵江涛",
+    "",
+    "Jiangtao Zhao"
+  ],
+  "_131":[
+    "能写代码，还能弹吉他，精通前端全家桶，负责过多个大型系统前端的开发，OnVideo前端扛把子。",
+    "",
+    "Can write code, play guitar, master front-end bucket, responsible for the development of front-end of many large systems."
+  ],
+  "_132":[
+    "期待您的加入…",
+    "",
+    "Look forward to your joining..."
+  ],
+  "_133":[
+    "公司地址",
+    "",
+    "Company address"
+  ],
+  "_138":[
+    "",
+    "",
+    ""
+  ],
+  "_136":[
+    "期待您与我们联系",
+    "",
+    "We look forward to your contact with us"
+  ],
+  "_137":[
+    "sales@onvideo.cn",
+    "",
+    "Sales@onvideo.cn"
+  ],
+  "_139":[
+    "视频编辑",
+    "",
+    "Video editing"
+  ],
+  "_134":[
+    "COMPANY ADDRESS",
+    "",
+    "COMPANY ADDRESS"
+  ],
+  "_140":[
+    "特权对比",
+    "",
+    "Privilege contrast"
+  ],
+  "_142":[
+    "存储空间",
+    "",
+    "storage space"
+  ],
+  "_141":[
+    "优惠方案",
+    "",
+    "Preferential scheme"
+  ],
+  "_143":[
+    "输出视频分钟数",
+    "",
+    "Output video minutes"
+  ],
+  "_135":[
+    "CONTACT US",
+    "",
+    "CONTACT US"
+  ],
+  "_144":[
+    "水印",
+    "",
+    "watermark"
+  ],
+  "_145":[
+    "输出规格",
+    "",
+    "Output specification"
+  ],
+  "_147":[
+    "免费版",
+    "",
+    "Free Edition"
+  ],
+  "_146":[
+    "处理通道",
+    "",
+    "Processing channel"
+  ],
+  "_149":[
+    "分钟",
+    "",
+    "Minute"
+  ],
+  "_148":[
+    "终身",
+    "",
+    "lifelong"
+  ],
+  "_150":[
+    "输出视频带OnVideo水印",
+    "",
+    "Output video with OnVideo watermark"
+  ],
+  "_152":[
+    "低速通道需要排队",
+    "",
+    "The low speed channel needs to be queued"
+  ],
+  "_153":[
+    "基础版",
+    "",
+    "Basic Edition"
+  ],
+  "_154":[
+    "活动期",
+    "",
+    "Sale"
+  ],
+  "_155":[
+    "月",
+    "",
+    "month"
+  ],
+  "_156":[
+    "原价",
+    "",
+    "Original price"
+  ],
+  "_151":[
+    "480P",
+    "",
+    "480P"
+  ],
+  "_157":[
+    "3月减15天，半年付减1个月， 年付减2个月",
+    "",
+    "Buy 3 months to reduce 15 days fee, buy half a year to reduce 1 month fee, buy 1 year to reduce 2 months fee"
+  ],
+  "_158":[
+    "无水印",
+    "",
+    "No watermark"
+  ],
+  "_159":[
+    "最高支持720P",
+    "",
+    "Supports up to 720P"
+  ],
+  "_161":[
+    "高级版",
+    "",
+    "Advanced Edition"
+  ],
+  "_160":[
+    "中速通道少量排队",
+    "",
+    "A small number of queues in the medium speed channel"
+  ],
+  "_162":[
+    "无限量",
+    "",
+    "Unlimited"
+  ],
+  "_163":[
+    "最高支持4K",
+    "",
+    "Supports up to 4K"
+  ],
+  "_164":[
+    "高速通道",
+    "",
+    "High speed channel"
+  ],
+  "_166":[
+    "定制版",
+    "",
+    "Custom Edition"
+  ],
+  "_165":[
+    "无需排队",
+    "",
+    "No need to line up"
+  ],
+  "_167":[
+    "商务面议",
+    "",
+    "Business discussion"
+  ],
+  "_168":[
+    "支持功能定制",
+    "",
+    "Supports Customization"
+  ],
+  "_169":[
+    "支持私有部署",
+    "",
+    "Supports private deployment"
+  ],
+  "_171":[
+    "立即沟通",
+    "",
+    "Communication"
+  ],
+  "_170":[
+    "立即购买",
+    "",
+    "Purchase"
+  ],
+  "_172":[
+    "限时抢购",
+    "",
+    "Sales"
+  ],
+  "_173":[
+    "24小时在线服务",
+    "",
+    "24 hours online service"
+  ],
+  "_174":[
+    "直播剪辑",
+    "",
+    "Live streaming cutting"
+  ],
+  "_176":[
+    "输出视频个数",
+    "",
+    "Output video numbers"
+  ],
+  "_175":[
+    "同时可建频道个数",
+    "",
+    "The number of channels creating at the same time"
+  ],
+  "_177":[
+    "适合个人剪辑、创作",
+    "",
+    "Suitable for personal editing and creation"
+  ],
+  "_178":[
+    "适合专业人员、团队制作视频",
+    "",
+    "Suitable for professionals and teams to make videos"
+  ],
+  "_180":[
+    "客服咨询",
+    "",
+    "Customer service"
+  ],
+  "_179":[
+    "定制属于你的剪辑、创作工具",
+    "",
+    "Customizing your clips and creation tools"
+  ],
+  "_181":[
+    "与我交谈",
+    "",
+    "Talk to me"
+  ],
+  "_182":[
+    "购买",
+    "",
+    "Pay"
+  ],
+  "_183":[
+    "有效期至",
+    "",
+    "Valid to"
+  ],
+  "_185":[
+    "支付宝",
+    "",
+    "Alipay"
+  ],
+  "_184":[
+    "元",
+    "",
+    "RMB"
+  ],
+  "_186":[
+    "应付金额：",
+    "",
+    "Amount payable:"
+  ],
+  "_187":[
+    "原套餐折算",
+    "",
+    "Conversion of original package"
+  ],
+  "_188":[
+    "天",
+    "",
+    "days"
+  ],
+  "_189":[
+    "去支付",
+    "",
+    "pay"
+  ]
+}
+,"control":{"_000":["项目","","project"],"_001":["素材","","Source material"],"_002":["影片","","Film"],"_003":["控制台","","Console"],"_004":["视频剪辑","","Video clips"],"_006":["我的账户","","My account"],"_007":["退出登录","","Exit logon"],"_008":["后台管理","","Back-stage management"],"_009":["套餐详情","","Details of the set meal"],"_005":["直播剪辑","","Live editing"],"_013":["删除","","delete"],"_012":["取消批量操作","","Cancel batch operation"],"_015":["搜索","","search"],"_011":["批量操作","","Batch operation"],"_010":["创建项目","","Create a project"],"_014":["全选","","Total selection"],"_016":["按时间升序","","In ascending order of time"],"_017":["按时间降序","","Descending order of time"],"_018":["按名称升序","","In ascending order by name"],"_020":["我的项目","","My project"],"_023":["重命名","","rename"],"_022":["继续编辑","","continue editing"],"_021":["最后修改","","Final modification"],"_025":["副本","","copy"],"_027":["确认","","confirm"],"_026":["名称","","Name"],"_028":["取消","","cancel"],"_019":["按名称降序","","Descend by name"],"_031":["回收站","","recycle bin"],"_024":["创建副本","","Create a copy"],"_032":["帮助中心","","Help center"],"_030":["时长用量","","Time length"],"_035":["创建文件夹","","create folder"],"_033":["讨论社区","","Discuss the community"],"_037":["创建时间","","Creation time"],"_034":["上传素材","","Uploading material"],"_029":["存储用量","","Storage amount"],"_038":["创建日期","","Creation date"],"_039":["全部","","whole"],"_040":["视频","","video"],"_041":["音频","","audio frequency"],"_036":["个文件","","A document"],"_044":["查看","","See"],"_046":["导出","","export"],"_047":["发布","","Release"],"_043":["片头片尾和LOGO","","Head and tail and LOGO"],"_042":["图片","","picture"],"_049":["宽","","wide"],"_050":["高","","high"],"_048":["发布于","","Published in"],"_045":["上传于","","Upload to"],"_052":["大小","","Size"],"_053":["帧率","","frame rate"],"_054":["时长","","Length of time"],"_051":["宽高比","","Width to height ratio"],"_059":["创建于","","Created in"],"_060":["类型","","type"],"_058":["暂无反馈信息","","No feedback information"],"_055":["发布平台","","Publishing platform"],"_056":["视频标题","","Video title"],"_061":["返回素材列表","","Return to the material list"],"_057":["发布状态","","Release status"],"_062":["片头视频","","Header video"],"_065":["是否确认删除？","","Is it confirmed to be deleted?"],"_064":["角标LOGO","","Corner LOGO"],"_063":["片尾视频","","Stern video"],"_066":["推荐16:9宽屏的MP4视频","","Recommend 16:9 Widescreen MP4 video"],"_067":["推荐分辨率为300、PNG格式","","The recommended resolution is 300, PNG format"],"_071":["右下","","lower right"],"_068":["左上","","Upper left"],"_073":["过期","","Be overdue"],"_070":["右上","","Upper right"],"_069":["左下","","Lower left"],"_078":["平台管理","","Platform management"],"_075":["立即开通","","Open up immediately"],"_074":["立即续费","","Immediate renewal"],"_072":["LOGO位置","","LOGO position"],"_077":["账户详情","","account details"],"_076":["套餐信息","","Package information"],"_080":["用户名称","","User name"],"_081":["邮箱","","mailbox"],"_082":["手机号","","Cell-phone number"],"_079":["个人头像","","Personal image"],"_083":["密码","","Password"],"_086":["中","","in"],"_085":["低","","low"],"_088":["修改","","modify"],"_087":["上传头像","","Upload a head image"],"_089":["已认证","","Certified"],"_084":["安全等级","","Safety grade"],"_092":["新密码","","New password"],"_094":["确认密码","","Confirm the password"],"_090":["未认证","","Uncertified"],"_095":["发送验证码","","Send authentication code"],"_096":["验证码","","Verification Code"],"_091":["新邮箱","","New mailbox"],"_098":["使用","","Use"],"_093":["旧密码","","Old cipher"],"_101":["绑定","","binding"],"_099":["已绑定","","Bindings"],"_103":["账号","","Account number"],"_104":["登录","","Sign in"],"_097":["选择平台","","Selection platform"],"_105":["文字","","Written words"],"_100":["重新认证","","Re certification"],"_102":["解除绑定","","Unbind"],"_107":["音效","","Sound effect"],"_108":["图像","","image"],"_109":["字幕","","Subtitle"],"_106":["过渡","","transition"],"_111":["上一步","","The last step"],"_113":["保存","","Preservation"],"_112":["下一步","","Next step"],"_116":["标题","","Title"],"_114":["新手引导","","Novice guidance"],"_115":["快捷键","","Shortcut key"],"_110":["全屏编辑","","Full screen editing"],"_117":["副标题","","Subtitle"],"_119":["上下滚动字幕","","Roll up and down subtitles"],"_123":["样式","","style"],"_122":["内容","","content"],"_118":["普通字幕","","Common subtitle"],"_120":["说明文字","","Explanatory text"],"_121":["左右滚动字幕","","Left and right subtitles"],"_126":["背景颜色","","background color"],"_129":["无","","nothing"],"_130":["半透明","","translucent"],"_124":["加一行","","Add one line"],"_125":["字体大小","","font size"],"_131":["有","","Yes"],"_128":["水平位置","","Horizontal position"],"_133":["右","","right"],"_132":["左","","Left"],"_127":["底部边距","","Bottom margin"],"_134":["该素材未导入完成，不支持浮雕滤镜","","The material is not imported and does not support the relief filter"],"_135":["不支持高级设置","","No advanced settings are supported"],"_136":["隐藏字幕","","closed caption"],"_138":["删除后不可恢复","","Not recoverable after deleting"],"_137":["显示字幕","","Show Subtitles"],"_139":["删除后可在回收站找回","","After deleting, it can be retrieved at the recycling station"],"_141":["请选择","","Please choose"],"_143":["请输入","","Please enter"],"_144":["企鹅号至少需要两个标签","","The penguin needs at least two labels"],"_146":["成功","","Success"],"_140":["字幕轨道","","Caption orbit"],"_147":["失败","","fail"],"_142":["长度过短","","Short length"],"_149":["不超过","","not exceeding"],"_145":["请在新页签中重新绑定账号","","Please re bind the account in the new page sign"],"_153":["错误","","error"],"_151":["正在获取缩略图","","Getting thumbnails"],"_155":["上传中","","Uploading"],"_148":["启用","","Enable"],"_150":["字","","word"],"_152":["合成中","","Synthesis"],"_157":["忘记密码","","Forget the password"],"_154":["导入中","","Import"],"_158":["请检查","","Please check"],"_160":["服务器异常","","Server exception"],"_156":["转码中","","Transcoding"],"_164":["开始时间","","start time"],"_161":["淡入淡出","","Fade in and fade out"],"_159":["不一致","","Atypism"],"_162":["淡入时间","","fade in"],"_165":["数据","","data"],"_169":["存储容量","","storage capacity"],"_163":["淡出时间","","Fade out time"],"_167":["网络素材","","Network material"],"_166":["已用","","Already used"],"_168":["总量","","total"],"_173":["时间","","time"],"_176":["录音","","Sound recording"],"_172":["更新时间","","Update time"],"_175":["上传时间","","Upload time"],"_174":["上传失败","","Upload failure"],"_170":["时长剩余","","Long remainder"],"_171":["副本名称","","Copy name"],"_179":["初始化","","Initialization"],"_178":["上传","","upload"],"_182":["恢复","","recovery"],"_183":["清空","","empty"],"_185":["提示","","Tips"],"_181":["查看影片","","Look at the film"],"_177":["纯音频","","Pure audio"],"_188":["拷贝","","Copy"],"_189":["拖动","","drag"],"_180":["查看素材","","View the material"],"_184":["请稍等…","","Just a moment, please..."],"_187":["后移插入","","Post shift insertion"],"_186":["裁剪插入","","Cutting insert"],"_190":["裁剪","","Cutting"],"_191":["退出全屏","","Exit full screen"],"_192":["逐帧快进","","Frame by frame fast forward"],"_193":["逐帧快退","","Frame by frame"],"_194":["逐秒快进","","Fast forward by second"],"_195":["逐秒快退","","Step by second"],"_197":["时间轴缩小","","Timeline reduction"],"_196":["暂停/播放","","Pause / play"],"_198":["时间轴放大","","Time axis magnification"],"_202":["速度","","speed"],"_203":["颜色","","colour"],"_205":["抠像","","keying"],"_199":["保存编辑","","Save editor"],"_204":["特效","","Special effect"],"_206":["滤镜","","Filter"],"_201":["基本变换","","Basic transformation"],"_209":["缩放","","zoom"],"_200":["取消编辑","","Cancel editors"],"_207":["旋转","","rotate"],"_210":["位置","","position"],"_211":["不透明度","","Opacity"],"_212":["动画","","animation"],"_215":["对比度","","contrast ratio"],"_208":["翻转","","Flipping"],"_216":["饱和度","","saturation"],"_214":["亮度","","brightness"],"_217":["色调","","Tone"],"_213":["重置全部","","reset all"],"_218":["音量","","volume"],"_219":["视频模糊","","Video blur"],"_224":["透明度","","transparency"],"_220":["视频防抖","","Steady Video"],"_225":["原图","","Original map"],"_221":["去LOGO","","Go to LOGO"],"_226":["黑白","","black and white"],"_223":["相近色","","Similar color"],"_230":["模糊","","vague"],"_222":["选择颜色","","Select color"],"_231":["X轴","","X axis"],"_228":["浮雕","","Relief"],"_227":["负片","","Negative film"],"_229":["怀旧","","Nostalgia"],"_234":["标签","","Label"],"_235":["简介","","brief introduction"],"_232":["Y轴","","Y axis"],"_233":["基本信息","","Essential information"],"_237":["规格","","Specifications"],"_239":["高清","","high definition"],"_242":["付费","","Pay"],"_243":["缩略图","","thumbnail"],"_238":["标清","","Standard clear"],"_240":["超清","","Superclear"],"_236":["输出规格","","Output specification"],"_245":["返回","","Return"],"_244":["换一组","","Another group"],"_241":["超超超高清","","Ultra super ultra high definition"],"_247":["视频信息编辑","","Video information editing"],"_248":["立即发布","","Immediately release"],"_250":["暂停","","suspend"],"_251":["撤销","","Revoke"],"_246":["账号名","","Account name"],"_249":["存为草稿","","Deposit as a draft"],"_252":["重做","","redo"],"_257":["重置","","Reset"],"_253":["跳到开始","","Jump to the beginning"],"_256":["请选择分类","","Please choose the classification"],"_254":["跳到结束","","Jump to the end"],"_258":["逆时针转45度","","Reverse clockwise 45 degrees"],"_255":["分类","","classification"],"_259":["顺时针转45度","","Turn 45 degrees clockwise"],"_262":["开始","","start"],"_263":["结束","","End"],"_260":["水平翻转","","Horizontal flipping"],"_261":["垂直翻转","","Vertical flipping"],"_264":["选取去LOGO区域","","Select the LOGO area"],"_268":["字间距","","Word spacing"],"_267":["行间距","","Row spacing"],"_266":["文本大小","","Text size"],"_265":["文本框大小","","Text box size"],"_269":["添加轨道","","Add orbit"],"_274":["已保存","","Have been saved"],"_272":["转场效果","","transitions"],"_270":["轨道类型","","Track type"],"_271":["轨道名称","","Track name"],"_273":["保存成功","","Save success"],"_275":["拖拽调整监视器大小","","Drag and drop the size of the monitor"],"_278":["吸附接近的元件","","Adsorbed elements"],"_276":["全屏播放（Esc退出全屏播放）","","Full screen play (Esc exit full screen)"],"_280":["拖动滑块来调整轨道长度","","Drag the slider to adjust the length of the track"],"_281":["打开所选中元件内容进行编辑","","Open the selected element content for editing"],"_277":["横竖屏切换","","Vertical screen switching"],"_284":["导入","","Import"],"_285":["频道","","channel"],"_279":["播放指针","","Play pointer"],"_283":["拖动调节该轨道音量","","Drag to adjust the volume of the track"],"_282":["删除该轨道","","Delete the track"],"_288":["合成失败","","Synthesis failure"],"_286":["正在合成","","In the process of synthesis"],"_289":["下载","","download"],"_287":["合成完成","","Synthetic completion"],"_291":["输出规格越高，后台处理时间会越长","","The higher the output specification, the longer the background processing time will be."],"_290":["播放次数","","Number of playback"],"_292":["可以一次性输出多个不同规格，你可以在不同场景使用它们。需要注意的是，输出多个规格会成倍的使用“剩余时间”。","","You can export multiple specifications at once, and you can use them in different scenarios. It should be noted that the output of multiple specifications will double the use of \"remaining time\"."],"_293":["绑定以下平台账号，可一键全平台发布，并统计到它们的表现数据。也可以不选择平台直接发行，在影片中可以导出到本地。","","Bind the following platform account, you can release a key platform, and statistics their performance data. It can also be released directly from the platform without being selected, and can be exported locally to the movie."],"_295":["选中所绑定平台，即可一键全平台发布","","Select the binding platform, then release the entire platform with one key."],"_297":["标题_副标题","","Headline subtitle"],"_294":["由于不同平台对信息要求不同，分别针对各平台进行填写有助于影片的发行效果","","Because different platforms have different information requirements, filling out the platforms individually is helpful to the effect of film distribution."],"_296":["这是大标题","","This is the headline"],"_300":["确定要恢复该素材么？恢复后可在素材列表查看","","Do you want to recover the material? After recovery, it can be seen in the material list"],"_299":["确定要删除该素材么？删除后可在回收站恢复","","Are you sure you want to delete this material? After deleting it can be recovered at the recycling station"],"_301":["确定要彻底删除该素材么？删除后不可找回","","Do you want to delete the material thoroughly? Can not be retrieved after deleting"],"_298":["这是副标题","","This is the subtitle"],"_307":["操作失败","","operation failed"],"_303":["确定要彻底删除该影片么？删除后不可找回！","","Do you want to delete the film thoroughly? After the deletion can not be retrieved!"],"_302":["确定要删除该项目么？删除后不可找回","","Are you sure you want to delete the project? Can not be retrieved after deleting"],"_304":["删除素材","","Delete material"],"_305":["删除项目","","delete item"],"_306":["删除影片","","Deleting a film"],"_308":["确定要清空回收站吗？清空后不可找回！","","Are you sure you want to empty the recycling station? Can not be retrieved after the emptying!"],"_310":["拖拽可调整轨道顺序","","Drag and drop adjustable orbit sequence"],"_309":["发布平台时候填写表单的提示与警示语句","","When the platform is released, fill in the form's prompts and warning statements."],"_311":["可按键“↑”“↓”微调时间轴的帧","","A frame with a keystroke"],"_312":["用“←”“→”来调节时间轴的秒","","Adjusting the time axis of the second"],"_313":["拖拽可调整轨道大小","","Drag and drop adjustable track size"],"_314":["新手引导不支持保存和发布","","Novice boot does not support preservation and release"],"_315":["拖拽可调整轨监视器大小","","Drag and drop adjustable rail monitor size"],"_317":["提示框可拖动","","The prompt box can be dragged"],"_318":["显示制作完成的影片成品，可查看、下载、发布影片等。","","The finished products can be viewed, downloaded, released, etc."],"_316":["提示框可拖动，按Enter键可以下一步。","","The prompt box can be dragged, and the Enter key can be the next step."],"_320":["显示的是发布后的影片的播放数据。","","It shows the playback data of the post."],"_321":["我们进入项目工作区吧！","","Let's go into the project workspace."],"_322":["不再提示","","No longer prompt"],"_319":["数据区","","Data area"],"_323":["抱歉，当前浏览器兼容性较差，会影响操作体验。请更换最新版谷歌浏览器进行操作。","","Sorry, browser compatibility is poor at present, which will affect operation experience. Please replace the latest version of Google browser for operation."],"_325":["项目中有未上传完成素材，请稍后发布。","","There are no uploaded materials in the project. Please release later."],"_326":["请输入标题（1-20个字）","","Please enter the title (1-20 words)"],"_324":["点此下载","","Click this download"],"_327":["请输入标签（回车键确认）","","Please enter the label (confirmation of the return key)"],"_328":["请输入简介（1-200个字）","","Please enter a brief introduction (1-200 words)"]},"guide":{"_001":["提供了制作影片的所有原材料。","","All the raw materials for making the film are provided."],"_000":["组件区：","","Component area:"],"_005":["最上面的视频轨道显示在最前面，多个音频轨道将同时播放。","","The top video tracks are displayed at the top and multiple audio tracks will be played at the same time."],"_004":["类似“图层”，视频轨道可放置|视频|、|图片|、|文字|，音频轨道仅能放置|音频|。","","Similar to \"layer\", video tracks can be placed in video, video, and audio tracks, and audio tracks can only be placed in audio frequency."],"_002":["|素材|是您自己上传的，|文字|、|过渡|、|音效|、|图像|是系统提供的。","","The material is uploaded by yourself, and it is provided by the system."],"_003":["时间线：","","Timeline:"],"_008":["全局操作区：","","Global operating area:"],"_007":["即效果预览播放器，素材和制作效果均可在此“所见即所得”。","","That is, the effect preview player, material and production effect can be seen in the \"WYSIWYG\"."],"_011":["OK，我们开始一起来制作第一个影片吧！","","OK, let's start making the first movie."],"_010":["制作完毕后，点击|发布|，即可生成|影片|。","","After the production is finished, click on the release button to generate the video."],"_009":["系统每隔10秒会自动保存一次，您也可以随时手动|保存|。","","The system will be saved automatically once every 10 seconds, and you can always save it manually."],"_006":["监视器：","","Monitor:"],"_012":["请按说明操作：","","Please follow the instructions:"],"_013":["拖拽|video_1|到时间线|视频2|轨道上|00:00:00|位置。","","Drag and drop |video_1| to |00:00:00| location on timeline video 2| track."],"_016":["拖拽|video_2|到时间线|视频2|轨道上，使其紧挨在|video_1|后面。","","Drag and drop |video_2| to the time line video 2| track, so that it is next to |video_1|."],"_015":["点击|✂|或使用快捷键|S|将其剪开，将后面的部分删除掉（快捷键|delete|）。","","Click on the button or use the shortcut key |S| to cut it off and delete the back part (shortcut key |delete|)."],"_019":["拖拽|video_3|到时间线|视频2|轨道上，使其紧挨在|video_2|后面。","","Drag and drop |video_3| to the time line video 2| track, so that it is next to |video_2|."],"_017":["我们发现|video_2|整体有点暗，单击该段素材，点击其左上角的|✎|或者左键双击该段素材，进入|效果编辑区|；","","We found that | video_2 | is a bit dark as a whole. Click the section, click | | in the upper left corner, or double-click the section to enter the | effect editing area |."],"_020":["我们发现|video_3|视频中人物下滑过程很精彩，可以来一个重复的慢动作。","","We found that the character gliding process in |video_3| video is wonderful and can be repeated in slow motion."],"_018":["我们找到|颜色|面板，滑动|亮度|滑条,亮度值改为|5|，点击|保存编辑|按钮，这样就提升了|video_2|的整体亮度。","","We find the | color | panel, slide | brightness | slider, change the brightness value to | 5 |, and click the | save edit | button to increase the overall brightness of | video_2 |."],"_023":["","",""],"_021":["按住|ctrl|（windows）或者|command|（Mac）键不放的同时，鼠标左键选中并向右拖动，直到新的切断外侧出现绿色框松开，这样就得到了|video_3|的复制品，拖动其贴紧|video_3|；","","While holding down the |ctrl| (Windows) or |command| (Mac) keys, the left mouse button is selected and dragged to the right until the new cut outside appears green box, so that the |video_3| copy is obtained, dragging its tight |video_3|;"],"_022":["双击该复制品进入|效果编辑区|，找到|速度|面板，向左滑动滑条将速度值改为|-2|，这样复制品的播放速度就比原本|video_3|慢了1倍。","","Double click on the replicas, find the speed panel, slide the slider to the left to change the speed value to |-2|, so that the playback speed is 1 times slower than the original |video_3|."],"_014":["我们发现|video_1|末尾有些多余部分，通过右下侧|放大/缩小滑条|放大轨道视区，将时间滑块拖到|00：06：00|处；","","We found some redundancy at the end of | video_1 | and dragged the time slider to | 00:06:00 | by zooming in / out the orbital view area on the lower right | slide."],"_024":["按顺序拖拽|video_4|~|video_5| 到|video_3|复制品后面，使其均彼此紧贴没有空隙。","","Drag and drop |video_4|~|video_5| to |video_3| replicates sequentially, so that they are tightly attached to each other without gaps."],"_026":["我们已经把主要故事情节做好了，,为影片加点文字吧！","","We've done the main storytelling. Add some words to the movie."],"_027":["从组件库的|文字|面板中拖拽“|标题|”到时间线|视频1|轨道的最开始处；","","Drag and drop \"title title\" to the beginning of the 1| track at the time line video from the text palette of the component library."],"_025":["在最后一段素材|video_5|的接近末尾|00：59：00|处，将其剪开；双击剪开后的最后一部分进入|效果编辑区|，找到|基本变换|面板，点击|不透明度|后面的|动画|按钮，滑动|结束|处滑条，将结束不透明度值改为|0|，这样影片就有了逐渐淡出的效果。","","At the end of the last segment of |video_5|, cut it off at the end of |00:59:00|. The effect of gradual fade out."],"_028":["双击该文字组件进入|效果编辑区|，输入“|Extreme Skiing|”，字体颜色为|白色|；","","Double click the text component to enter the edit area, enter \"|Extreme Skiing|\" and the font color is white."],"_032":["现在，我们为影片切断之间加上一些过渡效果！","","Now, we add some transitional effects between the movie cuts."],"_031":["滑动轨道缩放条放大轨道视区，鼠标单击该文字组件，外边框变为|黄色|，鼠标悬停于该文字组件右侧边界待鼠标指针变为|左右伸缩|后按下鼠标左键，拉伸该文字组件使其持续显示时间为|4|秒。","","The mouse clicks the text component, the mouse hovers on the right edge of the text component, and then changes the mouse pointer to the left button of the mouse, stretching the text component to keep its display time of |4| seconds."],"_034":["拖拽“|淡出黑色|”到video_1和video_2之间；","","Drag and drop \"black out\" to video_1 and video_2."],"_029":["文本框大小W为：|1600|，H为:|260|,文本大小为|200|；","","The size of the text box is W: |1600|, H is |260|, and the text size is |200|."],"_030":["在|基本变换|面板中点击|缩放|后面的|动画|按钮，将开始设为|1|，结束设为|0.1|，点击|保存编辑|。","","In the | Basic Transform | panel, click the | Animation | button after | Zoom |, set the start to | 1 |, end to | 0.1 |, and click | Save Edit |."],"_033":["组件库的|过渡|面板中提供了多种过渡效果，添加他们的方式是拖拽到两个切断之间，或者一个切断的开始或者结束处。","","A variety of transition effects are provided in the component library's transitional panel, which is added by dragging and dragging to two cuts, or at the beginning or end of a cut."],"_035":["拖拽“|淡出白色|”到video_2和video_3之间；","","Drag and drop \"white fade\" to video_2 and video_3."],"_037":["拖拽“|淡出黑色|”到video_复制品和video_4之间；","","Drag and drop \"fade out black\" to video_ copy and video_4."],"_036":["拖拽“|交叉模糊|”到video_3和复制品之间；","","Drag and drop between \"video_3\" and \"replica\"."],"_041":["结语","","epilogue"],"_038":["拖拽“|淡入淡出|”到video_4和video_5之间。","","Drag and drop \"fade in and fade out\" to video_4 and video_5."],"_039":["最后，我们为影片加上点音乐让他更生动吧！","","Finally, let's add some music to the film to make him more lively."],"_042":["感谢您的宝贵时间，恭喜您在引导下完成了第一个影片的制作！","","Thank you for your valuable time. I congratulate you on your guidance in completing the production of the first movie!"],"_044":["欢迎您来到OnVideo在线影片创作平台，花5分钟时间来学习一下OnVideo工作流程吧！","","Welcome to the OnVideo online film creation platform. Spend 5 minutes to learn the OnVideo workflow."],"_045":["不，已经会用","","No, it's used."],"_043":["您可以在|监视器|中预览效果，点击上方|发布|按钮，可一键发布至多个播出平台，发布后在|影片|中可查看或下载影片，帮助中心文档详细介绍了每一个操作细节注意事项，|快捷键|给出了平台所有快捷键，|新手引导|可随时进入该引导项目。","","You can preview the effect in the monitor. Click the top button to release the button. You can publish most of the broadcast platforms at one button. After the release, you can view or download the film. Enter the boot project."],"_040":["从组件库的|素材|面板中拖拽|audio_1|到时间线|音频1|轨道上，单击选中该音频，在视频结束处(|01:00:11|)对齐剪开，删除后面多余部分。","","Drag the |audio_1| to the timeline audio 1| track from the component repository panel, click the audio, and cut the video at the end of the video (|01:00:11|), and delete the extra part."],"_050":["下一步","","Next step"],"_046":["OK，开始","","OK, start"],"_047":["项目区：","","Project area:"],"_049":["上一步","","The last step"],"_048":["可创建和管理项目，一个项目就是一部影片创作工程。","","Projects can be created and managed. A project is a film creation project."],"_054":["显示制作完成的影片成品，可查看、下载、发布影片等。","","The finished products can be viewed, downloaded, released, etc."],"_056":["显示的是发布后的影片的播放数据。","","It shows the playback data of the post."],"_057":["我们进入项目工作区吧！","","Let's go into the project workspace."],"_052":["可上传和管理素材，包括视频、音频、图片等。","","Can upload and manage material, including video, audio, pictures, etc."],"_053":["影片区：","","Film area:"],"_055":["数据区：","","Data area:"],"_051":["素材区：","","Material area:"]}}

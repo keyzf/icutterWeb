@@ -1,0 +1,936 @@
+{
+    "_000":[
+        "帮助中心",
+        "",
+        "Help"
+    ],
+    "_001":[
+        "交流中心",
+        "",
+        "Contact"
+    ],
+    "_003":[
+        "价格方案",
+        "",
+        "Price"
+    ],
+    "_002":["关于我们",
+        "",
+        "About"
+    ],
+    "_004":[
+        "控制台",
+        "",
+        "Console"
+    ],
+    "_005":[
+        "我的账户",
+        "",
+        "Account"
+    ],
+    "_006":[
+        "退出登录",
+        "",
+        "Exit"
+    ],
+    "_007":[
+        "后台管理",
+        "",
+        "Management"
+    ],
+    "_008":[
+        "让天下没有难做的",
+        "",
+        "Edit & Publish Video is so Easy"
+    ],
+    "_009":[
+        "视频",
+        "",
+        "Video"
+    ],
+    "_010":[
+        "专业级云端视频创作平台，人人都能上手创作专业级影片， ",
+        "",
+        "With professional cloud video creation platform, everybody can create professional films."
+    ],
+    "_011":[
+        "让创意、制作、发布、变现一气呵成",
+        "",
+        "Let creativity, production, publish, and realisation happen in one go"
+    ],
+    "_012":[
+        "申请试用",
+        "",
+        "trial"
+    ],
+    "_013":[
+        "视频剪辑",
+        "",
+        "Video Edit"
+    ],
+    "_014":[
+        "OnVideo提供了真正摆脱大型制作软件，人人都能在云端创作专业级影片的新可能",
+        "",
+        "OnVideo provides a new possibility that people can really get rid of large-scale production software, to create professional films on the platform."
+    ],
+    "_015":[
+        "云端素材汇聚",
+        "",
+        "Support get materia from cloud video platform"
+    ],
+    "_016":[
+        "支持本地、第三方平台导入视频、音频、图片素材。云端素材库、素材交易市场正在建设中",
+        "",
+        "Support import video, audio, picture materials from the local and third party platform. Cloud library and material trading market are under construction."
+    ],
+    "_017":[
+        "专业操作台",
+        "",
+        "Professional operation panel"
+    ],
+    "_018":[
+        "基于浏览器的专业时间线编辑，无限轨道叠加；极简操作界面，支持剪辑、转场、调色、字幕、音效、特效制作",
+        "",
+        "Browser-based professional timeline editing, unlimited track overlay; Minimalist operating interface, which supports for editing, transitions, color mixing, subtitles, sound effects and special effects production"
+    ],
+    "_019":[
+        "专业字幕",
+        "",
+        "Professional subtitles"
+    ],
+    "_020":[
+        "静态字幕，字幕条，滚动字幕，游动字幕各种字幕效果支持",
+        "",
+        "Supports various subtitles effects including static subtitles, subtitles, scroll captions, cartoon captions, etc."
+    ],
+    "_021":[
+        "多种酷炫特效",
+        "",
+        "A variety of cool special effects"
+    ],
+    "_022":[
+        "滤镜、抠像，倒放，去LOGO，马赛克，防抖动等多种特效",
+        "",
+        "Supports filter, chromakey, reverse, delogo, mosaic, deshake and other special effects."
+    ],
+    "_024":[
+        "一键发布至全网各大播出平台，全网播放数据一眼尽收",
+        "",
+        "one click to publish video to multi-platform, gathering all platform playback data display in OnVideo."
+    ],
+    "_023":[
+        "全网发布运营",
+        "",
+        "Merge all platform data show in one page"
+    ],
+    "_025":[
+        "4K高清",
+        "",
+        "4K HD"
+    ],
+    "_026":[
+        "支持多码率输出，支持高达4K清晰度输出",
+        "",
+        "Supports multi-rate and 4K HD output."
+    ],
+    "_028":[
+        "全球节点部署，海内外各大视频平台支持",
+        "",
+        "Global node deployment, supports major video platforms at home and abroad"
+    ],
+    "_027":[
+        "全球支持",
+        "",
+        "Global support"
+    ],
+    "_029":[
+        "直播流接入，剪辑，发布 ，秒级完成",
+        "",
+        "Live streaming Access, Cutting, Publishing, publishing in second level"
+    ],
+    "_030":[
+        "秒级生成",
+        "",
+        "Creation completing between 0.5 and 2 seconds"
+    ],
+    "_031":[
+        "拆剪后数秒内合成完毕",
+        "",
+        "Concate all fragments combine them into one between 0.5 and 2 seconds"
+    ],
+    "_032":[
+        "实时拆条",
+        "",
+        "Real time cut"
+    ],
+    "_035":[
+        "支持多个剪辑片段拼接为一个视频",
+        "",
+        "Supports multiple fragments to be concatenated into one video"
+    ],
+    "_033":[
+        "对过去数秒内的直播即可实时拆剪为短视频，支持推、拉方式及多种直播协议",
+        "",
+        "The live broadcasting in the past few seconds can be cut into short videos in real time, supporting push and pull mode and various live broadcast protocols."
+    ],
+    "_034":[
+        "多片段拼接",
+        "",
+        "Multi-segment concatenating"
+    ],
+    "_037":[
+        "支持批量导出，支持一键多平台发布",
+        "",
+        "Supports batch export, one click to release at multi-platform"
+    ],
+    "_036":[
+        "一键多平台发布",
+        "",
+        "One click to publish at multi-platform"
+    ],
+    "_038":[
+        "简单高效",
+        "",
+        "Simple and efficient"
+    ],
+    "_039":[
+        "浏览器中操作，通过轨道缩略图可快速精准定位，步骤简单，数秒内即完成拆剪",
+        "",
+        "Operating in web browser, we can quickly and accurately locate through orbit thumbnails , with simple steps we can able to complete the demolition within a few seconds."
+    ],
+    "_041":[
+        "不仅仅是本地到云端的简单迁移，OnVideo带来的是围绕视频制作的一系列全新工作方式",
+        "",
+        "It's not just a simple migration from the local to the cloud, OnVideo brings a whole new method of working around video production."
+    ],
+    "_040":[
+        "平台价值",
+        "",
+        "Platform value"
+    ],
+    "_042":[
+        "在线",
+        "",
+        "Online"
+    ],
+    "_043":[
+        "云端计算，扔掉软件和设备诸多限制的包袱， 让创作、发布、运营不再有界限，让软件无法实现的协作、 交流、交易、变现融为一体",
+        "",
+        "Process on cloud, throwing away the restrictions of software and equipment, making the creation, publish, and operation without limitations, in order to merge cooperation, exchange and transaction which software cannot be able to achieve."
+    ],
+    "_045":[
+        "推倒大型视频软件专业性的门槛，让人人都能上手， 让制作专业级影片不再是个技术活",
+        "",
+        "Lower the threshold of large video software professionalism so that everybody can take advantage of it, that making professional films is no longer a technical activity."
+    ],
+    "_044":[
+        "简单",
+        "",
+        "simple"
+    ],
+    "_046":[
+        "实时",
+        "",
+        "real-time"
+    ],
+    "_047":[
+        "云端制作也将保持接近本地软件的平滑体验， 编辑效果实时预览，所见即所得",
+        "",
+        "Cloud production will also stay close to the smooth experience of local software, real-time preview of editing effects, and WYSIWYG."
+    ],
+    "_048":[
+        "智能",
+        "",
+        "Intelligence"
+    ],
+    "_050":[
+        "OnVideo 将为他们带来价值",
+        "",
+        "OnVideo will bring value to them"
+    ],
+    "_051":[
+        "OnVideo将为视频PGC机构、媒体机构、企业、个人视频爱好者在生产、发布、变现等各环节带来全新价值",
+        "",
+        "OnVideo will bring new value to the production, publishing and cashing of video PGC, media organizations, enterprises and personal video enthusiasts."
+    ],
+    "_049":[
+        "将AI人工智能引入到视频制作流程中，将大幅减少手工环节； 实现软件无法实现的效果和玩法； 出现更具智能化和 场景化的变现方式",
+        "",
+        "The introduction of AI into the video production process will greatly reduce the manual link; realize the effect and play of the software that can't be realized; a more intelligent and scene changing mode will appear."
+    ],
+    "_052":[
+        "PGC/MCN创作机构",
+        "",
+        "PGC/MCN creative organization"
+    ],
+    "_055":[
+        "自制节目可以尝试放下沉重的非编软件，节目上线更及时和灵活",
+        "",
+        "Homemade programs can try to put away heavy non-coding software, making programs more timely and flexible."
+    ],
+    "_053":[
+        "制作即运营，素材聚合、极速制作、全网发布、全网数据采集、内容变现不再彼此分离",
+        "",
+        "Production is operation, material aggregation, extreme speed production, whole network release, whole network data collection and content realisation are no longer separated from each other."
+    ],
+    "_054":[
+        "媒体机构",
+        "",
+        "Media institutions"
+    ],
+    "_056":[
+        "在线教育",
+        "",
+        "Online education"
+    ],
+    "_057":[
+        "课件可以制作的更专业更有趣，而且不再花费更多时间",
+        "",
+        "Courseware can be made more professional and interesting, and it will no longer cost more time."
+    ],
+    "_060":[
+        "视频平台",
+        "",
+        "Video platform"
+    ],
+    "_058":[
+        "个人",
+        "",
+        "personal"
+    ],
+    "_059":[
+        "每个人都可以利用OnVideo用精美的视频讲述自己的故事",
+        "",
+        "Everyone can use OnVideo to tell their stories with exquisite videos."
+    ],
+    "_061":[
+        "帮助平台用户不再发布未经制作的裸视频",
+        "",
+        "Help platform users no longer release videos that have not been produced."
+    ],
+    "_062":[
+        "企业",
+        "",
+        "enterprise"
+    ],
+    "_063":[
+        "企业宣传片，庆典活动纪念片，产品演示视频，市场活动视频制作无需再花高昂经费找专业公司",
+        "",
+        "You don't have to find professional companies to help you with propaganda, celebration films, product demonstration videos, or marketing campaign videos which cost you a lot."
+    ],
+    "_064":[
+        "OnVideo 每天都在成长",
+        "",
+        "OnVideo is growing every day"
+    ],
+    "_066":[
+        "个",
+        "",
+        "individual"
+    ],
+    "_067":[
+        "视频创作者",
+        "",
+        "Video Creator"
+    ],
+    "_065":[
+        "这是一个属于视频的时代，OnVideo将伴随着全球数以亿计的视频创作者一起成长",
+        "",
+        "This is an era of video. OnVideo will grow with hundreds of millions of video creators around the world."
+    ],
+    "_068":[
+        "已经发布视频",
+        "",
+        "Video has been released"
+    ],
+    "_070":[
+        "条",
+        "",
+        "strip"
+    ],
+    "_069":[
+        "最近30天发布视频",
+        "",
+        "The last 30 days to release video"
+    ],
+    "_071":[
+        "已收到功能请求",
+        "",
+        "Function requests received"
+    ],
+    "_072":[
+        "已收到产品评价",
+        "",
+        "Evaluation received"
+    ],
+    "_073":[
+        "已收到意见建议",
+        "",
+        "Advices received"
+    ],
+    "_074":[
+        "北京市朝阳区酒仙桥路10号院恒通国际商务园B8三层",
+        "",
+        "北京市朝阳区酒仙桥路10号院恒通国际商务园B8三层"
+    ],
+    "_075":[
+        "讨论交流QQ群",
+        "",
+        "QQ group"
+    ],
+    "_078":[
+        "京公网安备 11010102003032号 ",
+        "",
+        " Beijing Public Network Safety Filing No. 11010102003032"
+    ],
+    "_076":[
+        "北京区块云科技有限公司",
+        "",
+        "Beijing block cloud Technology Co., Ltd."
+    ],
+    "_077":[
+        "京ICP备17060095号-1 ",
+        "",
+        "Beijing ICP Filing No. 17060095-1"
+    ],
+    "_079":[
+        "OnVideo使用流程",
+        "",
+        "OnVideo usage"
+    ],
+    "_080":[
+        "时长、空间",
+        "",
+        "Time, space"
+    ],
+    "_081":[
+        "设备、浏览器、带宽",
+        "",
+        "Equipment, browsers, bandwidth"
+    ],
+    "_082":[
+        "素材格式",
+        "",
+        "Material format"
+    ],
+    "_084":[
+        "导入素材",
+        "",
+        "Importing Materials"
+    ],
+    "_085":[
+        "上传你的视频、音乐、图片素材，没有太多格式和大小的限制，我们也提供了大 量精美的素材供你使用。从第三方存储、视频平台导入功能正在陆续增加中。",
+        "",
+        "Upload your video, music, picture material, without format and size restrictions, we also provide a large number of materials for you to use. The functions importing from third party storage and video platform are gradually increasing."
+    ],
+    "_083":[
+        "更多问题",
+        "",
+        "More"
+    ],
+    "_086":[
+        "云端制作",
+        "",
+        "Cloud production"
+    ],
+    "_087":[
+        "OnVideo云端操作台，提供了专业的视频编辑方式和丰富功能， 相信你在新手引导下10分钟内就能上手操作，创作出属于你自己的精彩影片。 OnVideo进行了大量技术攻关，为了追求接近于本地软件的平滑体验， 虽然所有的视音频处理都在云端计算，但你依然能体验到OnVideo“即编即所得”的体验。",
+        "",
+        "OnVideo cloud operating platform, providing professional video editing and rich functions, we believe that you will be able to manage within 10 minutes under the guidance and create wonderful films of your own. OnVideo has carried out a lot of technical problems to pursue a smooth experience just like using a local software. Although all audio and audio processing is calculated on the cloud, you can still experience the \"what editing is what you need\" on the OnVideo."
+    ],
+    "_088":[
+        "全网发布",
+        "",
+        "Publish in all video platform"
+    ],
+    "_090":[
+        "全网数据统计",
+        "",
+        "Data statistics"
+    ],
+    "_089":[
+        "创作完成的影片，OnVideo将帮助你一键推送到各大视频平台、第三方存储， 或者导出下载到本地。免去了你一个一个平台去上传了。",
+        "",
+        "Once you've created a movie, OnVideo will help you push it to major video platforms, third-party storage, or you can export it and download it."
+    ],
+    "_092":[
+        "剩余时长和剩余空间？",
+        "",
+        "The remaining time and the remaining space?"
+    ],
+    "_091":[
+        "OnVideo会帮你实时汇总所有平台的播放表现数据，省去了一个一个平台去查看播放数据的麻烦。",
+        "",
+        "OnVideo will help you aggregate playback performance data from all platforms in real time, so you can view all data in one platform."
+    ],
+    "_094":[
+        "使用OnVideo对浏览器、设备、带宽的要求？",
+        "",
+        "What are the requirements for browser, device and bandwidth with OnVideo?"
+    ],
+    "_095":[
+        "浏览器：",
+        "",
+        "Browser:"
+    ],
+    "_093":[
+        "“时长”指的是制作好且发布成为影片的时长总和；“空间”指的是您账户中素材、影片、回收站里所有的内容的文件大小总和。 用户类型不同，会有不同的“剩余时长”和“剩余空间”，升级到高级账户类型会拥有更大的“时长剩余”和“存储剩余”。",
+        "",
+        "\"Time length\" refers to the sum of the time used to make and release the film; \"space\" refers to the sum of the contents including materials, films, and the files in recycling station in your account. Different types of users will have different \"remaining time\" and \"remaining space\", and upgrading to the advanced account type will have a larger \"time - long surplus\" and \"storage surplus\"."
+    ],
+    "_097":[
+        "谷歌浏览器 Google Chrome",
+        "",
+        "Google Chrome"
+    ],
+    "_096":[
+        "OnVideo在线编辑器基于HTML5技术，故只要是支持HTML5技术的浏览器均可使用OnVideo，我们发现以下浏览器的兼容性杠杠的",
+        "",
+        "The OnVideo online editor is based on HTML5 technology, so as long as the browser that supports HTML5 technology can use OnVideo, also we find the compatibility of the following browsers is excellent"
+    ],
+    "_098":[
+        "火狐浏览器 Mozilla Firefox",
+        "",
+        "Mozilla Firefox"
+    ],
+    "_099":[
+        "欧朋浏览器 Opera 15+",
+        "",
+        "Opera 15+"
+    ],
+    "_103":[
+        "需要保证你有足够的带宽来应付上传大文件或者一次性上传多个文件。",
+        "",
+        "You need to ensure that you have enough bandwidth to upload large files or upload multiple files at once."
+    ],
+    "_100":[
+        "设备：",
+        "",
+        "Equipment:"
+    ],
+    "_101":[
+        "应该大部分终端设备的性能都能使用OnVideo，不过你也有可能收到终端硬件不支持的提示，那可能是你的显卡配置太低的缘故，省点钱去买个好电脑吧！ 在iPad平板电脑等移动设备上同样可以使用OnVideo。",
+        "",
+        "Most of the terminal devices should be able to use OnVideo, but you may also receive warnings from the terminal hardware. May be the configuration of your graphics card is too low, try to save money to buy a good computer! OnVideo can also be used on mobile devices such as iPad."
+    ],
+    "_102":[
+        "带宽：",
+        "",
+        "Bandwidth:"
+    ],
+    "_104":[
+        "不同视频格式、音频格式、图片格式在OnVideo中的表现？",
+        "",
+        "How about the performance of different video formats, audio formats and picture formats in OnVideo?"
+    ],
+    "_106":[
+        "图片：",
+        "",
+        "Picture:"
+    ],
+    "_105":[
+        "OnVideo目前支持图片、视频、音频三种文件类型",
+        "",
+        "OnVideo currently supports three kinds of file types: picture, video and audio."
+    ],
+    "_108":[
+        "视频：",
+        "",
+        "Video:"
+    ],
+    "_109":[
+        "OnVideo支持市面上主流的封装格式和编码算法，但不排除有些奇形怪状的格式无法上传。出现这个情况，你可以联系我们帮你解决。 OnVideo对这些格式表示毫无压力：MP4/ 3GP/ AVI/ FLV/ MOV/3GPP, TS/ WMV/ MPEG/ M4V/ DIVX/ DV/ MJPEG/ MKV/ MOD/ MPG/ M2TS/ MTS/ OGV/ WEBM 。",
+        "",
+        "OnVideo supports the mainstream packaging formats and coding algorithms on the market. If some files with uncommon format can not be uploaded, you can contact us to solve it. OnVideo has no problem for dealing with the following formats: MP4/3GP/AVI/FLV/MOV/3GPP, TS/WMV/MPEG/M4V/DIVX/DV/MJPEG/MKV/MOD/MPG/M2TS/MTS/OGV/WEBM."
+    ],
+    "_107":[
+        "支持 JPG, GIF, PNG, TIFF, BMP等格式GIF在OnVideo中仅支持使用， 但不支持部分编辑效果图片的文件大小没有限制，但你需要注意你账户剩余空间为了保证输出影片的质量， 比如要输出720P或者1080P的影片，建议你使用高像素的图片，比如1024x768 或者更高的。",
+        "",
+        "Supports JPG, GIF, PNG, TIFF, BMP, and other formats. We only support to use files with GIF format in OnVideo, but no editing operation. There is no limit for the size of the picture, but you need to pay attention to the remaining space of your account to ensure the quality of the output film, such as a 720P or 1080P film. We suggest you to use a high pixel image, such as 1024x768 or higher."
+    ],
+    "_111":[
+        "音频：",
+        "",
+        "Audio:"
+    ],
+    "_112":[
+        "音频的格式支持.MP3/ .M4A/ .OGG/ .WAV/ .WMA/等音频的文件大小没有限制， 但你需要注意你账户剩余空间如果你是在制作MV或者对声音的要求较高的，我们建议你的音频素材要有较高采样率和比特率",
+        "",
+        "Supports audio format .MP3/.M4A/.OGG/.WAV/.WMA/ and without files size limit, but you need to pay attention to your account remaining space if you are making a MV or have high requirements on sound effect, we recommend that your audio material have a higher sampling and bit rate."
+    ],
+    "_110":[
+        "虽然格式限制不多，但.MP4的编辑体验最好的视频的文件大小没有限制， 但你需要注意你账户剩余空间为了保证输出影片的质量，比如要输出720P或者1080P的影片， 建议你使用高质量的视频素材，比如1280x720分辨率，20帧（fps）以上 或者更高的。",
+        "",
+        "Although there is not much limitation on format, the.MP4 editor experience the best video file without size limit, but you need to pay attention to the remaining space of your account to ensure the quality of the output film, such as 720P or 1080P films, we suggest that you use high-quality video material, such as 1280x720 resolution, 20 frame (FPS) or higher standard."
+    ],
+    "_114":[
+        "团队介绍",
+        "",
+        "Team Introduction"
+    ],
+    "_116":[
+        "余世兵 / CEO Founder",
+        "",
+        "Yu Shibing / CEO Founder"
+    ],
+    "_117":[
+        "前蓝汛产品经理，观止云副总经理兼产品总监，多年CDN、音视频一线产品工作经验。 连续创业者，曾在手机打车、区块链领域创业获得投资。",
+        "",
+        "Former ChinaCache product manager, BravovCloud deputy general manager and product director, with many years of CDN and audio-video first-line product experience. Continuous entrepreneurs who has won investment in the field of mobile app and block chain."
+    ],
+    "_113":[
+        "对于OnVideo的使用，相信你在新手引导带领下10分钟内就能上手，操作以往只有专业人员在大型视频软件中操作的酷炫功能。如果你发现了BUG，那么恭喜你，你提出的BUG被OnVideo确认后，你的剩余时长和剩余空间都会增长。如果你有更多的功能需求，可以在功能请求中提出，OnVideo会予以排期进行开发，你对产品的贡献也会体现在账户剩余时长和剩余空间的增长中。如果你觉得OnVideo做的还不错，确实给你带来了价值，我们希望你对OnVideo发表一些评价，从产品设计上，从功能上，从体验上等等。",
+        "",
+        "For the usage of OnVideo, we believe that you will be able to master it in 10 minutes under the guidance,and to use the fancy features that only existed in large video software that need to be operated by professionals.If you find a BUG, congratulations, once your proposed BUG is confirmed by OnVideo, your remaining time and space will grow.If you have more functional requirements, you can propose them in a functional request,OnVideo will arrange developers to handle it, and your contribution to the product will also be reflectedin the growth of the remaining time and space in your account.If you think OnVideo is doing well and does bring value to you, we would like you to write some comments,from product design, features, experiences, and so on."
+    ],
+    "_118":[
+        "刘歧 / CTO Co-founder",
+        "",
+        "Steven Liu / CTO Co-founder"
+    ],
+    "_120":[
+        "宋韶颍 / Co-founder",
+        "",
+        "Tony Song / Co-founder"
+    ],
+    "_119":[
+        "人称“大师兄”，曾任职蓝汛、高升、金山云等视频部门架构师及技术专家，FFmpeg 官方代码维护者，FFmpeg 官方推荐顾问。",
+        "",
+        "Called \"big brother\", once served as the architect and technical expert of the video department, such as CC, Gao Sheng and Kingsoft Cloud, the official FFmpeg code maintainer, and the official recommendation consultant of FFmpeg."
+    ],
+    "_122":[
+        "罗静敏 / Co-founder",
+        "",
+        "Jingmin Luo / Co-founder"
+    ],
+    "_121":[
+        "OnVideo颜值担当，拥有大规模音视频编转码集群系统架构经验，主导开发的转码集群在多家广电机构稳定运行多年。",
+        "",
+        "OnVideo Dreamboat, with large scale audio video coding and transcoding cluster system architecture experience, the development of a transcoding cluster running stably in a number of radio and television institutions for many years."
+    ],
+    "_123":[
+        "人称“大喵”，妹子当汉子用，工作狂，全栈咖。多年研发团队管理经验，丰富的音视频系统开发经验。",
+        "",
+        "People call \"big meow\". A workaholic, years of research and development team management experience, rich experience in audio and video system development."
+    ],
+    "_115":[
+        "TEAM",
+        "",
+        "TEAM"
+    ],
+    "_124":[
+        "周乐兵 / Co-founder",
+        "",
+        "Lebing Zhou / Co-founder"
+    ],
+    "_125":[
+        "Python大神，大型系统后端架构师，国内第一个自助CDN平台创始人之一。",
+        "",
+        "Python God, the back end architect of large-scale system, is one of the first self-service CDN platform in China."
+    ],
+    "_126":[
+        "徐斌 / Co-founder",
+        "",
+        "Bin Xu / Co-founder"
+    ],
+    "_127":[
+        "老北京土著，拥有多年音视频传输开发经验，从零参与过大型直播分发网络的开发， 参与过超低延时点对点视频传输系统的开发。",
+        "",
+        "Beijing native, with years of video and audio transmission development experience, have participated in the development of large live distribution network, and participated in the development of ultra low delay point to point video transmission system."
+    ],
+    "_129":[
+        "写代码一把梭，手快BUG少，参与过大型直播分发网络从无到有的全周期开发。",
+        "",
+        "Code written master with less bug, participated in the large live broadcast distribution network from zero to the full cycle development."
+    ],
+    "_128":[
+        "范兵强 / Co-founder",
+        "",
+        "Bingqiang Fan / Co-founder"
+    ],
+    "_130":[
+        "赵江涛 / Co-founder",
+        "",
+        "Jiangtao Zhao / Co-founder"
+    ],
+    "_131":[
+        "能写代码，还能弹吉他，精通前端全家桶，负责过多个大型系统前端的开发，OnVideo前端扛把子。",
+        "",
+        "Can write code, play guitar, master front-end bucket, responsible for the development of front-end of many large systems."
+    ],
+    "_132":[
+        "期待您的加入…",
+        "",
+        "Look forward to your joining..."
+    ],
+    "_133":[
+        "公司地址",
+        "",
+        "Company address"
+    ],
+    "_138":[
+        "",
+        "",
+        ""
+    ],
+    "_136":[
+        "期待您与我们联系",
+        "",
+        "We look forward to your contact with us"
+    ],
+    "_137":[
+        "sales@onvideo.cn",
+        "",
+        "Sales@onvideo.cn"
+    ],
+    "_139":[
+        "视频编辑",
+        "",
+        "Video editing"
+    ],
+    "_134":[
+        "COMPANY ADDRESS",
+        "",
+        "COMPANY ADDRESS"
+    ],
+    "_140":[
+        "特权对比",
+        "",
+        "Privilege contrast"
+    ],
+    "_142":[
+        "存储空间",
+        "",
+        "storage space"
+    ],
+    "_141":[
+        "优惠方案",
+        "",
+        "Preferential scheme"
+    ],
+    "_143":[
+        "输出视频分钟数",
+        "",
+        "Output video minutes"
+    ],
+    "_135":[
+        "CONTACT US",
+        "",
+        "CONTACT US"
+    ],
+    "_144":[
+        "水印",
+        "",
+        "watermark"
+    ],
+    "_145":[
+        "输出规格",
+        "",
+        "Output specification"
+    ],
+    "_147":[
+        "免费版",
+        "",
+        "Free Edition"
+    ],
+    "_146":[
+        "处理通道",
+        "",
+        "Processing channel"
+    ],
+    "_149":[
+        "分钟",
+        "",
+        "Minute"
+    ],
+    "_148":[
+        "终身",
+        "",
+        "lifelong"
+    ],
+    "_150":[
+        "输出视频带OnVideo水印",
+        "",
+        "Output video with OnVideo watermark"
+    ],
+    "_152":[
+        "低速通道需要排队",
+        "",
+        "The low speed channel needs to be queued"
+    ],
+    "_153":[
+        "基础版",
+        "",
+        "Basic Edition"
+    ],
+    "_154":[
+        "活动期",
+        "",
+        "Sale"
+    ],
+    "_155":[
+        "月",
+        "",
+        "month"
+    ],
+    "_156":[
+        "原价",
+        "",
+        "Original price"
+    ],
+    "_151":[
+        "480P",
+        "",
+        "480P"
+    ],
+    "_157":[
+        "3月减15天，半年付减1个月， 年付减2个月",
+        "",
+        "Buy 3 months to reduce 15 days fee, buy half a year to reduce 1 month fee, buy 1 year to reduce 2 months fee"
+    ],
+    "_158":[
+        "无水印",
+        "",
+        "No watermark"
+    ],
+    "_159":[
+        "最高支持720P",
+        "",
+        "Supports up to 720P"
+    ],
+    "_161":[
+        "高级版",
+        "",
+        "Advanced Edition"
+    ],
+    "_160":[
+        "中速通道少量排队",
+        "",
+        "A small number of queues in the medium speed channel"
+    ],
+    "_162":[
+        "无限量",
+        "",
+        "Unlimited"
+    ],
+    "_163":[
+        "最高支持4K",
+        "",
+        "Supports up to 4K"
+    ],
+    "_164":[
+        "高速通道",
+        "",
+        "High speed channel"
+    ],
+    "_166":[
+        "定制版",
+        "",
+        "Custom Edition"
+    ],
+    "_165":[
+        "无需排队",
+        "",
+        "No need to line up"
+    ],
+    "_167":[
+        "商务面议",
+        "",
+        "Business discussion"
+    ],
+    "_168":[
+        "支持功能定制",
+        "",
+        "Supports Customization"
+    ],
+    "_169":[
+        "支持私有部署",
+        "",
+        "Supports private deployment"
+    ],
+    "_171":[
+        "立即沟通",
+        "",
+        "Communication"
+    ],
+    "_170":[
+        "立即购买",
+        "",
+        "Purchase"
+    ],
+    "_172":[
+        "限时抢购",
+        "",
+        "Sales"
+    ],
+    "_173":[
+        "24小时在线服务",
+        "",
+        "24 hours online service"
+    ],
+    "_174":[
+        "直播剪辑",
+        "",
+        "Live streaming cutting"
+    ],
+    "_176":[
+        "输出视频个数",
+        "",
+        "Output video numbers"
+    ],
+    "_175":[
+        "同时可建频道个数",
+        "",
+        "The number of channels creating at the same time"
+    ],
+    "_177":[
+        "适合个人剪辑、创作",
+        "",
+        "Suitable for personal editing and creation"
+    ],
+    "_178":[
+        "适合专业人员、团队制作视频",
+        "",
+        "Suitable for professionals and teams to make videos"
+    ],
+    "_180":[
+        "客服咨询",
+        "",
+        "Customer service"
+    ],
+    "_179":[
+        "定制属于你的剪辑、创作工具",
+        "",
+        "Customizing your clips and creation tools"
+    ],
+    "_181":[
+        "与我交谈",
+        "",
+        "Talk to me"
+    ],
+    "_182":[
+        "购买",
+        "",
+        "Pay"
+    ],
+    "_183":[
+        "有效期至",
+        "",
+        "Valid to"
+    ],
+    "_185":[
+        "支付宝",
+        "",
+        "Alipay"
+    ],
+    "_184":[
+        "元",
+        "",
+        "RMB"
+    ],
+    "_186":[
+        "应付金额：",
+        "",
+        "Amount payable:"
+    ]
+}

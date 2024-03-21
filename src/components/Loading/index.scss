@@ -1,0 +1,45 @@
+@keyframes k-loadingR {
+	0% {
+	opacity:1;
+	background:#1890FF
+}
+30% {
+	opacity:.7;
+	background:#1890FF
+}
+60% {
+	opacity:.5;
+	background:#1890FF
+}
+75% {
+	opacity:.7;
+	background:#1890FF
+}
+100% {
+	opacity:1;
+	background:#1890FF
+}
+}
+.k-square-holder2 {
+	margin-left:48%;
+	width:50px;
+	margin-top: 8%;
+}
+.k-square4 {
+	display:inline-block;
+	width:15px;
+	height:15px;
+	margin: 0 5px;
+	background:#1890FF;
+	opacity:1;
+	animation:k-loadingR 2.8s infinite;
+}
+.k-square4b {
+	animation-delay:.7s
+}
+.k-square4c {
+	animation-delay:2.1s
+}
+.k-square4d {
+	animation-delay:1.4s
+}

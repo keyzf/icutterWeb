@@ -1,0 +1,5 @@
+{
+  "status": "success",
+  "result": {
+    "text_info":{
+      "status": true, "font_size": 50, "font_color": "ffffff", "position_x": "middle", "position_y": 50, "alpha": 0, "background_color": "000000", "font_name": "FZShuSong-Z01S"}, "directory_id": 0, "aspect": "4:3", "duration": 0, "portrait": false, "message": "暂时不能合成", "adaption": true, "label": [], "project_id": "3434343", "is_billing": 0, "status": 0, "can_publish": false, "update_time": "2020-06-03 14:46:58", "description": "", "audio_list": [{"name": "音频轨", "lock_track": false, "volume": 100, "obj_list": [], "duration": 0, "type": ""}], "holder": "", "is_private": 0, "auto_indent": true, "name": "我的项目", "is_template": 0, "video_list": [{"name": "图像轨", "lock_track": false, "volume": 0, "obj_list": [], "duration": 0, "type": ""}, {"name": "图像轨", "lock_track": false, "volume": 100, "obj_list": [], "duration": 0, "type": ""}], "theme_id": "", "group_id": 0}}

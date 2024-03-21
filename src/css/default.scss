@@ -1,0 +1,42 @@
+
+/******style******************/
+
+$style:#df2c2f ;              //主色调
+$icoColor:#FF8885 !default;              //主色调
+$thirdColor:#FFE9E8 ;              //主色调
+
+//$subPaddingTab:0px  !default;              //字幕顶部距离
+//blue
+//$icoColor:#3DADFF  !default;              //主色调
+//$style:#00A0DE !default;
+//$thirdColor:#E8E9ff !default;
+$subPaddingTab:30px  !default;              //字幕顶部距离
+
+
+
+/******special******************/
+//gray level
+$gray-1: #595959;
+$gray-1: #BFBFBF;
+$gray-1: #F7F7F7;
+
+//tip color
+$tip-color-1:#FF0000;
+$tip-color-2:#FFC03B;
+$tip-color-3:#3DADFF;
+$tip-color-4:#AB9BFF;
+$tip-color-5: rgba(0,0,0,0.60);;
+$tip-color-6:#1890FF;
+
+
+$path:'' !default;                    //路径变量
+$logoPath:'b' !default;               //路径变量
+$sliderBg:#BDBDBD !default;           //滑条背景色
+$sliderCtrl:#BFBFBF !default;         //滑条控制点颜色
+$loadingStyle:$icoColor !default;
+$borderStyle:#f28100;
+
+$lightStyle :lighten($style,10%);
+@import './cadre';
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+<video autoplay controls src="" class="video"></video>
+<video autoplay controls src="" class="video1"></video>
+<script  src="https://cdn.bootcdn.net/ajax/libs/hls.js/8.0.0-beta.3/hls.js"></script>
+<!--<script src="//at.alicdn.com/t/font_582104_84d14qzrjnn4s4i.js"></script>-->
+<script>
+    //兵强的流
+    var data = 'http://qcbydx9yc.bkt.clouddn.com/6235bede1308455db1180e5423b5647d/hls/video.m3u8';
+    var data1 = 'http://qcbydx9yc.bkt.clouddn.com/6235bede1308455db1180e5423b5647d/hls/video.m3u8';
+        var hls = new Hls();
+        var video = document.querySelector('.video');
+        var hls1 = new Hls();
+        var video1 = document.querySelector('.video1');
+        if (Hls.isSupported()) {
+            hls1.loadSource(data1)
+            hls1.attachMedia(video1)
+            hls.loadSource(data)
+            hls.attachMedia(video)
+            video1.play()
+            hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                console.info('canplay')
+                video.oncanplay = () => {
+                    video.play()
+                }
+//                video.onended = () => {
+//                    console.info('ended')
+//                    hls.loadSource(data)
+//                    hls.attachMedia(video)
+//                    video.play()
+//                }
+            })
+            hls.on(Hls.Events.ERROR, (event, data) => {
+                console.info('error')
+                console.info(data)
+                if (data.fatal) {
+//                    switch (data.type) {
+//                        case Hls.ErrorTypes.NETWORK_ERROR:
+//                            hls.startLoad()
+//                            break
+//                        case Hls.ErrorTypes.MEDIA_ERROR:
+//                            hls.recoverMediaError()
+//                            break
+//                        default:
+//                            hls.destroy()
+//                            break
+//                    }
+                }
+            })
+        }
+</script>
+<!--<svg class="icon" aria-hidden="true">-->
+<!--<use xlink:href="#icon-xitongtouxiangnvicon"></use>-->
+<!--</svg>-->
+</body>
+
+</html>

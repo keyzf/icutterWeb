@@ -1,0 +1,54 @@
+.the-msg{
+  left: 50%;
+  top: 60px;
+  width: 0;
+  height: 30px;
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  >div{
+    width: 660px;
+    margin:0 -330px;
+    height: 30px;position: relative;
+    z-index: 9999999;
+    font-size: 13px;
+    color: white;
+    background-color: #fc6461;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    line-height: 30px;
+    .downChrome{
+      cursor: pointer;
+      color: #3839df;
+      margin: 0 10px;
+      border-bottom: 1px solid #3839df;
+    }
+    >.iconfont{
+      width: 30px;
+      text-align: center;
+      display: inline-block;
+    }
+    .icon-cuowujinggao{
+      color: white;
+    }
+    .icon-guanbi{
+      font-size: 12px;
+      cursor: pointer;
+      float: right;
+    }
+  }
+  &.tipV{
+    top:-30px;
+    >div{
+      width: 200px;
+      margin:0 -100px;
+      padding: 5px;
+      .ms{
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+}

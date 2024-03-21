@@ -1,0 +1,255 @@
+
+/******style******************/
+//red
+//$style:#df2c2f !default;              //主色调
+//$icoColor:#FF8885;  !default;              //主色调
+//$thirdColor:#FFE9E8;  !default;              //主色调
+
+
+//blue
+$icoColor:#3DADFF  !default;              //主色调
+$style:#00A0DE !default;
+$thirdColor:#E8E9ff !default;
+$subPaddingTab:30px  !default;              //字幕顶部距离
+
+
+//web_3.0基色
+$icoColor:transparent  !default;              //主色调
+$style:#00A0DE !default;
+$thirdColor:#E8E9ff !default;
+$subPaddingTab:30px  !default;              //字幕顶部距离
+$black-style:#292728 !default;
+
+
+
+
+/******special******************/
+//gray level
+$gray-1: #595959;
+$gray-1: #BFBFBF;
+$gray-1: #F7F7F7;
+
+//tip color
+$tip-color-1:#FF0000;
+$tip-color-2:#FFC03B;
+$tip-color-3:#3DADFF;;
+$tip-color-4:#AB9BFF;
+$tip-color-5: rgba(0,0,0,0.60);
+$tip-color-6:#1890FF;
+
+
+
+
+/**********详细颜色配置**********/
+
+//顶部菜单底色 .top .
+$top-menu-bg:#292728;
+//顶部菜单文字
+$top-menu-color:#9c9c9f;
+$top-menu-color-current:#ffffff;
+//明黄色（团队编辑切换
+$sub-color-yellow:#ffd100;
+//文件夹颜色
+$file-color:#FFD100;
+//文件夹选中颜色
+$file-color-current:#FFD100;
+
+
+.status-0{
+  background-color: $tip-color-4;
+}
+.status-1{
+  background-color: transparent;
+  display: none !important;
+}
+.status-2{
+  background-color: $tip-color-1;
+}
+.status-3{
+  background-color: $tip-color-3;
+}
+.status-5{
+  background-color: $tip-color-1;
+}
+.hover-box{
+  .on-hover{
+    display: none;
+  };
+  &:hover,&:focus{
+    .on-hover{
+      display: inline-block;
+    }
+    .dis-hover{
+      display: none;
+    }
+  }
+}
+.content{
+  .status-0,.status-1,.status-2,.status-3,.status-5,.status-6{
+    background-color: transparent;
+  }
+  .status-1{
+    background-color: transparent;
+    display: block !important;
+  }
+}
+
+
+$path:'' !default;                    //路径变量
+$logoPath:'b' !default;               //路径变量
+$sliderBg:#BDBDBD !default;           //滑条背景色
+$sliderCtrl:#BFBFBF !default;         //滑条控制点颜色
+$loadingStyle:$icoColor !default;
+$borderStyle:#f28100;
+
+$lightStyle :lighten($style,10%);
+@mixin rotate($deg){
+  transform:rotate(#{$deg}deg);
+  -ms-transform:rotate(#{$deg}deg); 	/* IE 9 */
+  -moz-transform:rotate(#{$deg}deg); 	/* Firefox */
+  -webkit-transform:rotate(#{$deg}deg); /* Safari 和 Chrome */
+  -o-transform:rotate(#{$deg}deg); 	/* Opera */
+}
+@mixin animation($second:.2){
+
+  transition: all #{$second}s ease-in-out;
+}
+@mixin sprite1127($left,$top,$m:0.8) {
+  display: inline-block;
+  //cursor: pointer;
+  background: url('../images/#{$path}sprite20171127.png') $left*$m+px $top*$m+px;
+  background-size: 591*$m+px 955*$m+px;
+  width: 18px;
+  height: 18px;
+}
+@mixin gradient($direction,$c1,$c2){
+  background-image: -webkit-linear-gradient($direction,$c1 10%,$c2 75%);
+  background-image: -moz-linear-gradient($direction,$c1 10%,$c2 75%);
+  background-image: -o-linear-gradient($direction,$c1 10%,$c2 75%);
+  background-image: linear-gradient($direction,$c1 10%,$c2 75%);
+}
+@mixin deg($deg){
+  transform:rotate($deg );
+  -ms-transform:rotate($deg ); 	/* IE 9 */
+  -moz-transform:rotate($deg ); 	/* Firefox */
+  -webkit-transform:rotate($deg ); /* Safari 和 Chrome */
+  -o-transform:rotate($deg );
+}
+@mixin box-shadow($deg:0){
+  -webkit-box-shadow: 0 0 0 1px #e5e5e5;
+  -moz-box-shadow: 0 0 0 1px #e5e5e5;
+  box-shadow: 0 0 0 1px #e5e5e5;
+}
+@mixin user-select-none(){
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none; /* you could also put this in a class */
+  -webkit-user-select: none; /* and add the CSS class here instead */
+  -ms-user-select: none;
+  user-select: none; /**禁止选中文字*/
+}
+@mixin box-sizing-initial(){
+  box-sizing:initial;
+  -moz-box-sizing:initial; /* Firefox */
+  -webkit-box-sizing:initial; /* Safari */
+}
+@mixin white-space-nowrap(){
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@mixin flex-center(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin ellipsis(){
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+@mixin radial-gradient(){
+  background:  #efefef;
+}
+// 移入样式
+@mixin hover-style(){
+  &:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.flex-center{
+  @include flex-center();
+}
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+}
+ul,ol,p{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p{
+  word-break: break-all;
+}
+.fr{
+  float: right;
+}
+.p-a{
+  position: absolute;
+}
+.h-20{
+  height: 20px;
+}
+.m-0-5{
+  margin: 0 5px;
+}
+.m-10{
+  margin: 0 10px;
+}
+.m-10-0{
+  margin: 10px 0;
+}
+.w-135{
+  width: 135px;
+}
+.dis-i-b{
+  display: inline-block;
+}
+.dis-flex{
+  display: flex;
+}
+.flex-j-c{
+  justify-content: center;
+}
+.flex-a-c{
+  align-items: center;
+}
+.iconfont{
+  min-width: 0 !important;
+}
+.video-js{
+  background-color: gray !important;
+  overflow: hidden;
+}
+@import './layout/main.scss';
+@import './online.scss';
+@import './guide.scss';
+@import './handy.scss';
+@import './living-issue.scss';
+@import './dialog.scss';
+@import './antd.scss';
+@import './quill.scss';
+@import './unit.scss';
+@import './videojs.scss';
+@import "./iconfont/iconfont.css";
+
+
+

@@ -1,0 +1,212 @@
+
+.detailMaterial {
+  letter-spacing: 0.5px;
+  width: 570px;
+  margin: 0 auto 20px;
+  .media {
+    width: 100%;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    canvas{
+      margin: -1%;
+      width: 102%;
+      height: 102%;
+    }
+    img{
+      margin: -1%;
+      max-width: 102%;
+      max-height: 102%;
+    }
+  }
+  .info {
+    font-size: 14px;
+    .heard {
+      border-bottom: 1px solid #ddd;
+      span {
+        display: inline-block;
+        margin: 5px 0;
+        color: #212121;
+        &:last-child {
+          color: #999;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .body {
+      margin: 15px auto;
+      overflow: hidden;
+      ul {
+        width: 108%;
+        li {
+          margin: 0;
+          height: 24px;
+          line-height: 24px;
+          display: inline-block;
+          text-align: left;
+          font-size: 0.9rem;
+          width: 25%;
+          margin-right: 8%;
+          color: #1890FF;
+          span {
+            color: #666;
+            display: inline;
+            min-width: 30px;
+            width: auto;
+          }
+          &:last-child {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+    .platform {
+      > div {
+        color: #333;
+        height: 48px;
+        display: flex;
+        border-bottom: 0;
+        line-height: 48px;
+        > div {
+          flex: 1;
+          overflow: hidden;
+          text-align: center;
+        }
+        &:last-child {
+          margin-bottom: 20px;
+        }
+      }
+      .title {
+        background-color: #F1F1F1;
+        margin: 0 -3%;
+        width: 106%;
+        height: 33px;
+        color: #666;
+        font-size: 14px;
+        line-height: 33px;
+        > div {
+          flex: 1;
+        }
+      }
+      .content {
+        color: #666;
+        font-size: 12px;
+        border-bottom: 1px solid #EBEBEB;
+        &:first-child {
+          text-align: left;
+        }
+        &:last-child{
+          border-bottom: 1px solid transparent;
+        }
+        .ico-platform {
+          transform: scale(0.75, 0.75);
+        }
+        > div {
+          flex: 1;
+        }
+        .ico-pl-status {
+          margin: -5px 3px;
+          color: #666;
+          @include sprite1127(-100, -152);
+        }
+        .nothing {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.record-ctrl{
+  .t-a-r{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .attention{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ico{
+      font-size: 70px;
+      width: 110px;
+      cursor: pointer;
+      height: 110px;
+      line-height: 110px;
+      border: 1px solid $style;
+      border-radius: 25px;
+      background: white;
+      @include animation();
+      color: $icoColor;
+      text-align: center;
+      &:hover{
+        background: $style;
+        color: white;
+      }
+    }
+  }
+  .preview{
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >div{
+      background: #F6F6F6;
+      padding: 5px 15px;
+    }
+    p{
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    span{
+      margin: 0 5px;
+    }
+    .progress{
+      display: inline-block;
+      position: relative;
+      background: #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      height: 5px;
+      width: 120px;
+      .handler{
+        height: 5px;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: inline-block;
+        background: $icoColor;
+      }
+    }
+    .ico{
+      cursor: pointer;
+    }
+  }
+}
+
+.group{
+  .select{
+    min-height: 10px;
+  }
+  .title{
+    margin: 25px 10px 5px;
+    font-size: 18px;
+    color: #000;
+    span{
+      margin: 0 1px;
+    }
+    .ico{
+      color: #ccc;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  }
+}

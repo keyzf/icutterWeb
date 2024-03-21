@@ -1,0 +1,180 @@
+{
+    "obj_type": "video",  // 素材类型
+    "obj_id": "1139419049153542",// 视频ID
+    "duration": 10,  // 时长
+    "start_time": 0,  // 在轨道上开始位置（时间）
+    "end_time": 10,  // 在轨道上结束位置
+    "effects": "original",  // 滤镜(original/monochrome/negate/emboss/vintage/blur)
+    "trans_start":{
+        "bind": true, //相邻块公用一个转场为true；
+        "duration": 1,//持续时间
+        "name": "交叉模糊",
+        "thumbnail": "http://testapi.onvideo.cn/data/media/system/transition/crossblur.png",
+        "trans_type": "crossblur"
+    },  // 转场
+    "trans_end":{
+        "bind": true,
+        "duration": 1,
+        "name": "交叉模糊",
+        "thumbnail": "http://testapi.onvideo.cn/data/media/system/transition/crossblur.png",
+        "trans_type": "crossblur"
+    },  // 转场
+    "special": {  // 该对象特有属性
+        "media_url": "",  // 视频URL
+        "status": "",  // 视频URL
+        "preview_hls": "",  // 预览URL（低码率）
+        "preview_mp3": "",  // 预览URL（低码率）
+        "preview_mp4": "",  // 预览URL（低码率）
+        "sub_type": "",  // 子类型，属于扩展参数，比如动效字幕属于动效，但子类型会加个”animation“进行区别；默认留空
+        "uploading": "",//用于判断是否上传中
+        "buffer": "",  // 上传中的文件的下标
+        "video_preview_img": "",  // 视频缩略图
+        "audio_preview_img": "",  // 音频缩略图
+        "thumbnail": "",  // 封面图
+        "start_range": 0,  // 截取视频开始时间
+        "end_range": 5  // 截取视频结束时间
+    },
+    "transform": {  // 基本变换
+        "rotation": 0,  // 向左/向右旋转角度（-180——180）
+        "flip": 0,  // 左右/上下翻转（0-无，1-上下、2-左右、3-上下+左右）
+        "start_scale": 1.0,  // 开始缩放比例
+        "end_scale": 1.0,  // 结束缩放比例
+        "start_position_x": 0,  // 开始 距左
+        "start_position_y": 0,  // 开始 距上
+        "end_position_x": 0,  // 结束 距左
+        "end_position_y": 0  // 结束 距上
+    },
+    "volume": {  // 声音
+        "value": 100,  // 开始 音量大小
+        "echoes": false  // 是否加回声
+    },
+    "specialeffect":{  // 特效
+        "back_play": false,  // 倒放
+        "shake": false,  // 加晃动
+        "deshake": false,  // 去抖动
+        "vague_x": 0,  // 向X轴模糊
+        "vague_y": 0  // 向Y轴模糊
+    },
+    "video_fade":[//数组是为了日后做单个片段内多个透明度节点做准备的；现在是线性，单个对象代表当前片段的透明度；两个代表从多少透明度开始到多少透明度结束
+        {
+            "time_point": 0,  // 相对该视频时间点
+            "visibility": 100,  // 透明度
+            "fade_type": 0  // 0-视频/图片/文本/背景，1-音频
+        }
+    ],
+    "delogo":[
+        {
+            "logo_height": 236,
+            "logo_width": 460,
+            "logo_x": 1438,
+            "logo_y": 6
+        }
+    ],
+    "color":{  // 色彩
+        "brightness": 0,  // 亮度
+        "contrast": 0,  // 对比度
+        "saturation": 0,  // 饱和度
+        "hue": 0  // 色调
+    },
+    "colorkeying":{  // 抠图
+        "select_color": "",  // 颜色
+        "transparency": 0,  // 透明度 %
+        "sensitivity": 1  // 相似度 %
+    },
+    "speed": {  // 播放速度
+        "value": 1 // 倍率 0.1~10对应-10到10倍速；
+    },
+    "audio_fade":[
+        {
+            "time_point": 0,  // 相对该视频时间点
+            "visibility": 100,  // 透明度
+            "fade_type": 0  // 0-视频/图片/文本/背景，1-音频(现在未启用)
+        },
+        {
+            "time_point": 10,  // 相对该视频时间点
+            "visibility": 100,  // 透明度
+            "fade_type": 0  // 0-视频/图片/文本/背景，1-音频(现在未启用)
+        }
+    ]
+}
+/*
+audio={
+            "obj_type": "audio",
+            "obj_id": original.media_id,  // 视频ID
+            "duration": original.duration,  // 时长
+            "start_time": original.start_time,  // 在轨道上开始位置（时间）
+            "end_time": original.end_time,  // 在轨道上结束位置
+            "effects": 'original',  // 滤镜
+            "special": _videoType.special,
+            "volume": _videoType.volume,
+            "audio_fade":_videoType.audio_fade,
+            }
+            */
+/*
+image={
+            "obj_type": "image",  //
+            "obj_id": original.media_id,  // 视频ID
+            "duration": original.duration,  // 时长
+            "start_time": original.start_time,  // 在轨道上开始位置（时间）
+            "end_time": original.end_time,  // 在轨道上结束位置
+            "effects": 'original',  // 滤镜
+            "trans_start":{},  // 转场
+            "trans_end":{},  // 转场
+            "special": _videoType.special,
+            "delogo": _videoType.delogo,
+            "transform":_videoType.transform,
+            "specialeffect":_videoType.specialeffect,
+            "color":_videoType.color,
+            "video_fade":_videoType.video_fade,
+            "colorkeying":_videoType.colorkeying,
+            }
+            */
+/*
+text={
+                    "obj_type": original.media_type,  //
+                    "obj_id": +new Date()+original.media_id,  // 视频ID
+                    "duration": original.duration,  // 时长
+                    "start_time": original.start_time,  // 在轨道上开始位置（时间）
+                    "end_time": original.end_time,  // 在轨道上结束位置
+                    "effects": 'original',  // 滤镜
+                    "trans_start":{},  // 转场
+                    "trans_end":{},  // 转场
+                    "special": {
+                        "media_url": original.media_url,  // 视频URL
+                        "status": original.status,  // 视频URL
+                        "preview_hls": original.preview_hls,  // 预览URL（低码率）
+                        "preview_mp3": original.preview_mp3,  // 预览URL（低码率）
+                        "preview_mp4": original.preview_mp4,  // 预览URL（低码率）
+                        "sub_type": original.sub_type,  // 预览URL（低码率）
+                        "uploading": original.uploading,  // 预览URL（低码率）--------------------------------------
+                        "buffer": (original.buffer!==0&&!original.buffer)? undefined:original.buffer,  // 预览URL（低码率）-------------------------------
+                        "video_preview_img": original.video_preview_img,  // 视频缩略图
+                        "audio_preview_img": original.audio_preview_img,  // 音频缩略图
+                        "thumbnail": original.thumbnail,  // 视频封面图
+                        "start_range": 0,  // 截取视频开始时间
+                        "end_range": original.duration,  // 截取视频结束时间
+                            "text": "<p class=\"ql-align-center\"><span style=\"color: rgb(102, 185, 102);\">这是大标题</span></p><p class=\"ql-align-center\"><span style=\"color: rgb(102, 185, 102);\">这是副标题</span></p>",
+                            "svg1": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"400\"><foreignObject width=\"100%\" height=\"100%\"><div  xmlns=\"http://www.w3.org/1999/xhtml\"  style=\"font-size:100px;line-height:200px;letter-spacing:0px;padding-left: 0.2em;white-space:pre-wrap;word-break: break-all;\" ><p class=\"ql-align-center\" style=\"text-align: center; margin: 0px; padding: 0px; line-height: 200px; min-height: 200px;\"><span style=\"color: rgb(102, 185, 102); margin: 0px -1px;\">这是大标题</span></p><p class=\"ql-align-center\" style=\"text-align: center; margin: 0px; padding: 0px; line-height: 200px; min-height: 200px;\"><span style=\"color: rgb(102, 185, 102); margin: 0px -1px;\">这是副标题</span></p></div></foreignObject></svg>",
+                            "svg": "",
+                            "font_family": 0,
+                            "bold": false,
+                            "italic": false,
+                            "underline": false,
+                            "text_color": "rgb(0,0,0)",
+                            "background_color": "rgb(0,0,0)",
+                            "container_color": "rgb(0,0,0)",
+                            "text_align": 1,
+                            "line_height": 200,
+                            "spacing": 0,
+                            "font_size": 100,
+                            "position_x": 0,
+                            "position_y": 0,
+                            "position_w": 1000,
+                            "position_h": 1000,
+                            "move": 0,
+                    },
+                    "transform":_videoType.transform,
+                    "layers":[{ty:5,s:{t:'测试测试测试'}}],//动效字幕相关
+                    "video_fade":_videoType.video_fade,
+                }
+                */
